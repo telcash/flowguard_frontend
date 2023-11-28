@@ -1,0 +1,32 @@
+.fg__mainnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fg__mainnav-container {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.fg__mainnav-logo_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fg__mainnav-logo_container img {
+    width: 67.5px;
+    height: 71px;
+}
+
+.fg__mainnav-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
