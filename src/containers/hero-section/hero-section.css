@@ -1,4 +1,5 @@
 .fg__hero {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,14 +7,49 @@
 
 .fg__hero-container {
     display: flex;
-    max-width: 1440px;
-    width: 100%;
 }
 
-.fg__hero-container-info {
+.fg__hero-container_info {
+    flex: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.fg__hero-container_info h1{
+    color: #1E255E;
+    font-size: 56px;
+    font-weight: 700;
+    flex: 1;
+    padding-right: 2rem;
+}
+
+.fg__hero-container_info p {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
     flex: 1;
 }
 
-.fg__hero-container-slider {
+.fg__hero-container_info-actions {
     flex: 1;
+}
+
+.fg__hero-container_info-actions button {
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #17A4D0;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+}
+
+.fg__hero-container_slider {
+    flex: 50%;
+    padding: 1rem;
 }

@@ -7,7 +7,7 @@ const MainSlider = () => {
     return (
         <div className="fg__mainSlider">
             <Carousel fade>
-                <Carousel.Item>
+                <Carousel.Item className="fg__mainSlider-item">
                     <img src={dummyImg} alt="dummy" />
                     <Carousel.Caption>
                         <h3>First slide label</h3>

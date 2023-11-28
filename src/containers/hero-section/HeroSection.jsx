@@ -8,14 +8,14 @@ const HeroSection = () => {
     return (
         <div className="fg__hero">
             <div className="fg__hero-container">
-                <div className="fg__hero-container-info">
+                <div className="fg__hero-container_info">
                     <h1>{t("header.tagline")}</h1>
                     <p>{t("header.description")}</p>
-                    <div className="fg__hero-container-info_actions">
+                    <div className="fg__hero-container_info-actions">
                         <button>Action</button>
                     </div>
                 </div>
-                <div className="fg__hero-container-slider">
+                <div className="fg__hero-container_slider">
                     <MainSlider></MainSlider>
                 </div>
             </div>
