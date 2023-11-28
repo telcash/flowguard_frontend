@@ -1,0 +1,19 @@
+.fg__hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fg__hero-container {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.fg__hero-container-info {
+    flex: 1;
+}
+
+.fg__hero-container-slider {
+    flex: 1;
+}

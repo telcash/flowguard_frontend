@@ -5,6 +5,7 @@
             "link2": "Link2",
             "link3": "Link3"
         },
-        "tagline": "Potenciando la ciberseguridad en los sistemas públicos de suministro de agua potable"
+        "tagline": "Potenciando la ciberseguridad en los sistemas públicos de suministro de agua potable",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
 }
