@@ -9,6 +9,7 @@ import global_en from './translations/en/global.json';
 i18next.init({
     interpolation: { escapeValue: false},
     lng: "es",
+    fallbackLng: "es",
     resources: {
         es: {
             global: global_es

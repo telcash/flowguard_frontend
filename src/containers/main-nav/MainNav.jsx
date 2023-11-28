@@ -17,7 +17,7 @@ const MainNav = () => {
                 </div>
                 <div className='fg__mainnav-links'>
                     <button onClick={() => i18n.changeLanguage("es")}>ES</button>
-                    <button onClick={() => i18n.changeLanguage("es")}>EN</button>
+                    <button onClick={() => i18n.changeLanguage("en")}>EN</button>
                     <a href='#s1'>{t("header.main-nav.link1")}</a>
                     <a href='#s2'>{t("header.main-nav.link2")}</a>
                     <a href='#s3'>{t("header.main-nav.link3")}</a>

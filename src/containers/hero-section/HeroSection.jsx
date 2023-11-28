@@ -1,6 +1,7 @@
 import React from "react";
 import './hero-section.css';
 import { useTranslation } from 'react-i18next';
+import MainSlider from "../../components/main-slider/MainSlider";
 
 const HeroSection = () => {
     const [t] = useTranslation("global");
@@ -15,7 +16,7 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <div className="fg__hero-container-slider">
-
+                    <MainSlider></MainSlider>
                 </div>
             </div>
         </div>
