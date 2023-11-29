@@ -1,0 +1,12 @@
+.fg__partners {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fg__partners img {
+    width: 330px;
+    height: auto;
+}
