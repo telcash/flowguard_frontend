@@ -22,9 +22,10 @@ nav {
     top: 0;
     z-index: 1;
     background-color: rgba(256, 256, 256, 0.75);
+    padding: 1.5rem 0;
 }
 
 main {
     position: relative;
-    top: 100px;
+    top: 120px;
 }
