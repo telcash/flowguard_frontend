@@ -1,5 +1,5 @@
 export { default as HeroSection } from './hero-section/HeroSection';
 export { default as Features } from './features/Features';
 export { default as Footer } from './footer/Footer';
-export { default as Header } from './header/Header';
-export { default as Team } from './team/Team'; 
+export { default as Team } from './team/Team';
+export { default as MainNav } from './main-nav/MainNav';

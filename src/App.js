@@ -1,14 +1,20 @@
 import React from 'react';
 import './App.css';
-import { Header, Features, Team, Footer, HeroSection } from './containers';
+import { MainNav, Features, Team, Footer, HeroSection } from './containers';
 
 const App = () => (
-    <div className='App'>
-        <Header />
-        <HeroSection />
-        <Features />
-        <Team />
-        <Footer />
+    <div className='app'>
+        <nav>
+            <MainNav />
+        </nav>
+        <main>
+            <HeroSection />
+            <Features />
+            <Team />
+        </main>
+        <footer>
+            <Footer />
+        </footer>
     </div>
 );
 
