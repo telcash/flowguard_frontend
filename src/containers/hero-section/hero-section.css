@@ -1,15 +1,17 @@
 .fg__hero {
     width: 100%;
-    background: linear-gradient(0deg, rgba(23,164,208,0.25) 0%, rgba(256,256,256,0.25) 100%);
+    background: linear-gradient(0deg, rgba(23,164,208,0.5) 0%, rgba(256,256,256,0.5) 100%);
 }
 
 .fg__hero-container {
+    margin: 0 auto;
+    max-width: 1440px;
     display: flex;
 }
 
 .fg__hero-container_info {
     flex: 50%;
-    padding: 1rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -17,22 +19,26 @@
 
 .fg__hero-container_info h1{
     color: #1E255E;
-    font-size: 56px;
+    font-size: 52px;
     font-weight: 700;
-    flex: 1;
+    flex: 2;
     padding-right: 2rem;
 }
 
 .fg__hero-container_info p {
     color: #333;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     flex: 1;
 }
 
 .fg__hero-container_info-actions {
-    flex: 1;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .fg__hero-container_info-actions button {

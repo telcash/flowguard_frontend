@@ -5,5 +5,23 @@
 
 .carousel-item img {
     width: 100%;
+    min-width: 450px;
+    min-height: 300px;
     border-radius: 50px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.carousel-caption h3 {
+    font-size: 24px;
+    color: #1E255E;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    color: #333
 }

@@ -6,7 +6,21 @@
             "link3": "Link3"
         },
         "tagline": "Potenciando la ciberseguridad en los sistemas públicos de suministro de agua potable",
-        "description": "Con el poder de la IA identificamos en tiempo real cualquier comportamiento anómalo o potencial vulnerabilidad en los sistemas de suministro de agua para prevenir ciberataques"
+        "description": "Con el poder de la IA identificamos en tiempo real cualquier comportamiento anómalo o potencial vulnerabilidad en los sistemas de suministro de agua para prevenir ciberataques",
+        "slides": {
+            "slide1": {
+                "title":"Recopilación y preprocesamiento de datos",
+                "description":"Recopilar datos históricos de las redes de distribución de agua y preprocesarlos para eliminar inconsistencias y errores. Desarrollar una base de datos adecuada para almacenar estos datos"
+            },
+            "slide2": {
+                "title":"Modelado de gráficos e identificación de topología",
+                "description":"Desarrollar algoritmos GNN para modelar la topología de la red de distribución de agua en forma de gráfico. Identificar los nodos claves de la red"
+            },
+            "slide3": {
+                "title":"Aprendizaje de comportamiento normal",
+                "description":"Utilizar datos históricos para entrenar los algoritmos GNN para identificar el comportamiento normal en la red de distribución de agua"
+            }
+        }
     },
     "features": {
         "graph-neural-networks": {

@@ -6,7 +6,21 @@
     },
     "header": {
         "tagline": "Empowering cybersecurity in public drinking water supply systems",
-        "description": "With the power of AI we identify in real time any anomalous behavior or potential vulnerability in the water supply systems to prevent cyberattacks"
+        "description": "With the power of AI we identify in real time any anomalous behavior or potential vulnerability in the water supply systems to prevent cyberattacks",
+        "slides": {
+            "slide1": {
+                "title":"Data collection and preprocessing",
+                "description":"Collect historical data on water distribution networks and preprocess the data to remove any inconsistencies and errors. Develop an appropriate database to store the preprocessed data"
+            },
+            "slide2": {
+                "title":"Graph modeling and topology identification",
+                "description":"Develop GNN algorithms to model the topology of the water distribution network as a graph. Identify the key nodes and edges in the network"
+            },
+            "slide3": {
+                "title":"Normal behavior learning",
+                "description":"Use historical data to train the GNN algorithms to identify normal behavior in the water distribution network"
+            }
+        }
     },
     "features": {
         "graph-neural-networks": {
