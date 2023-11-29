@@ -2,6 +2,8 @@ import React from "react";
 import './hero-section.css';
 import { useTranslation } from 'react-i18next';
 import MainSlider from "../../components/main-slider/MainSlider";
+import airchainAnimation from '../../assets/airchain-animation.gif';
+import treatmentPlant from '../../assets/treatment-plant.jpg';
 
 const HeroSection = () => {
     const [t] = useTranslation("global");

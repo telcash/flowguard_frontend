@@ -61,6 +61,11 @@
     max-height:150px;
 }
 
+.fg__hero-container_slider img {
+  width: 100%;
+  height: auto;
+}
+
 /* Animation */
 
 .parallax > use {
