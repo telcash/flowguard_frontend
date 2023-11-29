@@ -1,6 +1,37 @@
 {
+    "main-nav": {
+        "link1": "Link1",
+        "link2": "Link2",
+        "link3": "Link3"
+    },
     "header": {
         "tagline": "Empowering cybersecurity in public drinking water supply systems",
         "description": "With the power of AI we identify in real time any anomalous behavior or potential vulnerability in the water supply systems to prevent cyberattacks"
+    },
+    "features": {
+        "graph-neural-networks": {
+            "title":"Graph Neural Networks",
+            "description": "We provide a tailor-made graph neural network scheme that specifically learns the water flow pattern in public management systems. It can analyze large-scale graph data and identify any anomalous behavior or potential vulnerabilities in the network"
+        },
+        "data-reliability": {
+            "title":"Data reliability",
+            "description": "We leverage the power of Artificial Intelligence and Machine Learning to analyze vast amounts of data quickly and accurately"
+        },
+        "real-time-response": {
+            "title":"Real Time Response",
+            "description": "By analyzing real-time data from IoT sensors and other sources, Graph Neural Networks can identify the source and scope of a potential attack, enabling a targeted and efficient response"
+        },
+        "cont-improvement": {
+            "title":"Continuous improvement",
+            "description": "By simulating attacks on the network and analyzing the results, Graph Neural Networks can identify the optimal location for sensors and other security measures, improving overall performance while reducing deployment and maintenance costs"
+        },
+        "risk-management": {
+            "title":"Risk management",
+            "description": "We conduct extensive testing, develop contingency plans in the event of system failure, invest in personal training, comply with relevant regulations and laws, and develop a crisis management plan for legal issues"
+        },
+        "environment-impact": {
+            "title":"Positive environment impact",
+            "description": "By measuring flow differences throughout the network, leaks can be detected and corrected, minimizing losses. By digitizing the network, decision centers will receive data in real time, reducing travel, scheduling maintenance more accurately and carrying out corrective actions remotely, thus reducing carbon emissions associated with transportation"
+        }
     }
 }
