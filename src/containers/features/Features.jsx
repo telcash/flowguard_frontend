@@ -13,7 +13,7 @@ const Features = () => {
   const [t] = useTranslation("global");
   return (
     <div className='fg__features'>
-      <h1>¿Por qué Flowguard?</h1>
+      <h1>{t("features.title")}</h1>
       <div className='fg__features-container'>
         <Feature icon={neuralNetworkIcon} title={t("features.graph-neural-networks.title")} description={t("features.graph-neural-networks.description")}></Feature>
         <Feature icon={dataReliabilityIcon} title={t("features.data-reliability.title")} description={t("features.data-reliability.description")}></Feature>

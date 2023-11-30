@@ -1,11 +1,11 @@
 .fg__partners {
-    margin-top: 80px;
+    margin-top: 120px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 30px;
 }
 
 .fg__partners h1 {
@@ -17,7 +17,7 @@
 .fg__partners-logos {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 

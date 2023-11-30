@@ -1,51 +1,71 @@
 {
     "header": {
         "main-nav": {
-            "link1": "Link1",
-            "link2": "Link2",
-            "link3": "Link3"
+            "link1": "¿Por qué Flowguard?",
+            "link2": "Nuestros partners",
+            "link3": "Contacto"
         },
         "tagline": "Potenciando la ciberseguridad en los sistemas públicos de suministro de agua potable",
-        "description": "Con el poder de la IA identificamos en tiempo real cualquier comportamiento anómalo o potencial vulnerabilidad en los sistemas de suministro de agua para prevenir ciberataques",
-        "slides": {
-            "slide1": {
-                "title":"Recopilación y preprocesamiento de datos",
-                "description":"Recopilar datos históricos de las redes de distribución de agua y preprocesarlos para eliminar inconsistencias y errores. Desarrollar una base de datos adecuada para almacenar estos datos"
-            },
-            "slide2": {
-                "title":"Modelado de gráficos e identificación de topología",
-                "description":"Desarrollar algoritmos GNN para modelar la topología de la red de distribución de agua en forma de gráfico. Identificar los nodos claves de la red"
-            },
-            "slide3": {
-                "title":"Aprendizaje de comportamiento normal",
-                "description":"Utilizar datos históricos para entrenar los algoritmos GNN para identificar el comportamiento normal en la red de distribución de agua"
-            }
-        }
+        "description": "Con el poder de la IA identificamos en tiempo real cualquier comportamiento anómalo o potencial vulnerabilidad en los sistemas de suministro de agua para prevenir ciberataques"
     },
     "features": {
-        "graph-neural-networks": {
+        "title": "¿Por qué Flowguard?"
+,        "graph-neural-networks": {
             "title":"Redes Neuronales de Gráficos",
             "description": "Proporcionamos un esquema de red neuronal gráfico personalizado que aprende específicamente el patrón de flujo de agua en los sistemas de gestión pública. Puede analizar datos gráficos a gran escala e identificar cualquier comportamiento anómalo o posibles vulnerabilidades en la red"
         },
         "data-reliability": {
-            "title":"Fiabilidad de los datos",
+            "title": "Fiabilidad de los datos",
             "description": "Aprovechamos el poder de la Inteligencia Artificial y el Aprendizaje Automático para analizar grandes cantidades de datos de forma rápida y precisa"
         },
         "real-time-response": {
-            "title":"Respuesta en tiempo real",
+            "title": "Respuesta en tiempo real",
             "description": "Al analizar datos en tiempo real de sensores de IoT y otras fuentes, las Redes Neuronales de Gráficos pueden identificar el origen y el alcance de un ataque potencial, lo que permite una respuesta específica y eficiente"
         },
         "cont-improvement": {
-            "title":"Mejora continua",
+            "title": "Mejora continua",
             "description": "Al simular ataques a la red y analizar los resultados, los GNN pueden identificar la ubicación óptima para sensores y otras medidas de seguridad, mejorando el rendimiento general y reduciendo los costos de implementación y mantenimiento"
         },
         "risk-management": {
-            "title":"Gestión de riesgos",
+            "title": "Gestión de riesgos",
             "description": "Realizamos pruebas exhaustivas, desarrollamos planes de contingencia en caso de falla del sistema, invertimos en capacitación personal, cumplimos con las regulaciones y leyes pertinentes y desarrollamos un plan de gestión de crisis para cuestiones legales"
         },
         "environment-impact": {
-            "title":"Impacto ambiental positivo",
+            "title": "Impacto ambiental positivo",
             "description": "Al medir las diferencias de flujo en toda la red, se pueden detectar y corregir fugas, minimizando las pérdidas. Al digitalizar la red, los centros de decisión recibirán datos en tiempo real, reducirán los viajes, programarán el mantenimiento con mayor precisión y realizarán acciones correctivas de forma remota, reduciendo así las emisiones de carbono asociadas al transporte"
+        }
+    },
+    "partners": {
+        "title": "Nuestros partners"
+    },
+    "project-plan": {
+        "step1": {
+            "title": "Recopilación y preprocesamiento de datos",
+            "description": "Recopilar datos históricos de las redes de distribución de agua y preprocesarlos para eliminar inconsistencias y errores. Desarrollar una base de datos adecuada para almacenar estos datos"
+        },
+        "step2": {
+            "title": "Modelado de gráficos e identificación de topología",
+            "description": "Desarrollar algoritmos GNN para modelar la topología de la red de distribución de agua en forma de gráfico. Identificar los nodos claves de la red"
+        },
+        "step3": {
+            "title": "Aprendizaje de comportamiento normal",
+            "description": "Utilizar datos históricos para entrenar los algoritmos GNN para identificar el comportamiento normal en la red de distribución de agua"
+        },
+        "step4": {
+            "title": "Análisis de datos en tiempo real",
+            "description": "Desarrollar algoritmos GNN para analizar datos en tiempo real de sensores y otras fuentes para identificar anomalías que se desvían del comportamiento normal e indican la presencia de un ciberataque"
+        },
+        "step5": {
+            "title": "Optimización de sensores y medidas de seguridad",
+            "description": "Utilizar algoritmos GNN para simular ataques a la red y analizar los resultados para identificar las ubicaciones óptimas de los sensores"
+        },
+        "step6": {
+            "title": "Integración y pruebas",
+            "description": "Integrar los algoritmos GNN en la red de distribución de agua y probar el sistema en un entorno simulado"
+        },
+        "step7": {
+            "title": "Implementación y mantenimiento",
+            "description": "Implementar el sistema en un entorno real y proporcionar mantenimiento y soporte continuos"
         }
     }
 }

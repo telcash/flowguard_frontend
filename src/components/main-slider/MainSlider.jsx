@@ -8,26 +8,54 @@ const MainSlider = () => {
     const [t] = useTranslation("global");
     return (
         <div className="fg__mainSlider">
-            <Carousel fade>
+            <Carousel slide={false}>
                 <Carousel.Item className="fg__mainSlider-item">
                     <img src={dummyImg} alt="dummy" />
                     <Carousel.Caption>
-                        <h3>{t("header.slides.slide1.title")}</h3>
-                        <p>{t("header.slides.slide1.description")}</p>
+                        <h3>{t("project-plan.step1.title")}</h3>
+                        <p>{t("project-plan.step1.description")}</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={dummyImg} alt="dummy" />
                     <Carousel.Caption>
-                        <h3>{t("header.slides.slide2.title")}</h3>
-                        <p>{t("header.slides.slide2.description")}</p>
+                        <h3>{t("project-plan.step2.title")}</h3>
+                        <p>{t("project-plan.step2.description")}</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img src={dummyImg} alt="dummy" />
                     <Carousel.Caption>
-                        <h3>{t("header.slides.slide3.title")}</h3>
-                        <p>{t("header.slides.slide3.description")}</p>
+                        <h3>{t("project-plan.step3.title")}</h3>
+                        <p>{t("project-plan.step3.description")}</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={dummyImg} alt="dummy" />
+                    <Carousel.Caption>
+                        <h3>{t("project-plan.step4.title")}</h3>
+                        <p>{t("project-plan.step4.description")}</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={dummyImg} alt="dummy" />
+                    <Carousel.Caption>
+                        <h3>{t("project-plan.step5.title")}</h3>
+                        <p>{t("project-plan.step5.description")}</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={dummyImg} alt="dummy" />
+                    <Carousel.Caption>
+                        <h3>{t("project-plan.step6.title")}</h3>
+                        <p>{t("project-plan.step6.description")}</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={dummyImg} alt="dummy" />
+                    <Carousel.Caption>
+                        <h3>{t("project-plan.step7.title")}</h3>
+                        <p>{t("project-plan.step7.description")}</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
