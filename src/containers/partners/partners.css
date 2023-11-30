@@ -1,12 +1,27 @@
 .fg__partners {
-    margin-top: 100px;
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.fg__partners h1 {
+    color: #1E255E;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.fg__partners-logos {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.fg__partners img {
+.fg__partners-logos img {
     width: 330px;
     height: auto;
 }

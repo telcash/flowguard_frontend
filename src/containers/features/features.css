@@ -1,8 +1,16 @@
 .fg__features {
     width: 100%;
+    margin-top: 40px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.fg__features h1 {
+    color: #1E255E;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .fg__features-container {
