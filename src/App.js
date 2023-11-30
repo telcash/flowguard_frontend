@@ -8,12 +8,18 @@ const App = () => (
             <MainNav />
         </nav>
         <main>
-            <HeroSection />
-            <Features />
-            <Partners />
+            <section id='hero'>
+                <HeroSection />
+            </section>
+            <section id='features'>
+                <Features />
+            </section>
+            <section id='partners'>
+                <Partners />
+            </section>
         </main>
-        <footer>
-            <Footer />
+        <footer id='footer'>
+            <Footer/>
         </footer>
     </div>
 );

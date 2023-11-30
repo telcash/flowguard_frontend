@@ -26,9 +26,9 @@ const MainNav = () => {
                             <img src={enIcon} alt="english" />
                         </button>
                     </div>
-                    <a href='#s1'>{t("header.main-nav.link1")}</a>
-                    <a href='#s2'>{t("header.main-nav.link2")}</a>
-                    <a href='#s3'>{t("header.main-nav.link3")}</a>
+                    <a href='/index#features'>{t("header.main-nav.link1")}</a>
+                    <a href='#partners'>{t("header.main-nav.link2")}</a>
+                    <a href='#footer'>{t("header.main-nav.link3")}</a>
                 </div>
             </div>
         </div>
