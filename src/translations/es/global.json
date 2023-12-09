@@ -5,14 +5,14 @@
             "link2": "Nuestros partners",
             "link3": "Contacto"
         },
-        "tagline": "Potenciando la ciberseguridad en los sistemas públicos de suministro de agua potable",
-        "description": "Con el poder de la IA identificamos en tiempo real cualquier comportamiento anómalo o potencial vulnerabilidad en los sistemas de suministro de agua para prevenir ciberataques"
+        "tagline": "Potenciando la Ciberseguridad de las Infraestructuras críticas de Agua públicas y privadas",
+        "description": "Con el poder de la IA identificamos en tiempo real cualquier comportamiento anómalo o potencial vulnerabilidad en los sistemas de tratamiento y suministro de agua para prevenir ciberataques"
     },
     "features": {
         "title": "¿Por qué Flowguard?"
 ,        "graph-neural-networks": {
             "title":"Redes Neuronales de Gráficos",
-            "description": "Proporcionamos un esquema de red neuronal gráfico personalizado que aprende específicamente el patrón de flujo de agua en los sistemas de gestión pública. Puede analizar datos gráficos a gran escala e identificar cualquier comportamiento anómalo o posibles vulnerabilidades en la red"
+            "description": "Proporcionamos un esquema de red neuronal gráfico personalizado que aprende específicamente de los Patrones y procesos que intervienen en los procesos del Agua. Puede analizar datos gráficos a gran escala e identificar cualquier comportamiento anómalo o posibles vulnerabilidades en la red de datos"
         },
         "data-reliability": {
             "title": "Fiabilidad de los datos",
@@ -31,8 +31,12 @@
             "description": "Realizamos pruebas exhaustivas, desarrollamos planes de contingencia en caso de falla del sistema, invertimos en capacitación personal, cumplimos con las regulaciones y leyes pertinentes y desarrollamos un plan de gestión de crisis para cuestiones legales"
         },
         "environment-impact": {
-            "title": "Impacto ambiental positivo",
-            "description": "Al medir las diferencias de flujo en toda la red, se pueden detectar y corregir fugas, minimizando las pérdidas. Al digitalizar la red, los centros de decisión recibirán datos en tiempo real, reducirán los viajes, programarán el mantenimiento con mayor precisión y realizarán acciones correctivas de forma remota, reduciendo así las emisiones de carbono asociadas al transporte"
+            "title": "Reducción de la Huella de Carbono y Huella Hídrica",
+            "description": "La herramienta Flowguard analiza el flujo de agua en toda la red, se pueden detectar y corregir fugas, minimizando las pérdidas. Al digitalizar la red, los centros de decisión recibirán datos en tiempo real, reducirán las intervenciones, programarán el mantenimiento con mayor precisión y realizarán acciones correctivas de forma remota, reduciendo así las emisiones de carbono asociadas al transporte"
+        },
+        "plc-scada-integration": {
+            "title": "Integración con los sistemas PLC y SCADA",
+            "description": "Disponemos de drives de integración con los principales fabricantes de hardware y software del mercado industrial. De esa forma el despliegue de la herramienta en la instalación industrial se realiza en tiempo record"
         }
     },
     "partners": {
@@ -41,15 +45,15 @@
     "project-plan": {
         "step1": {
             "title": "Recopilación y preprocesamiento de datos",
-            "description": "Recopilar datos históricos de las redes de distribución de agua y preprocesarlos para eliminar inconsistencias y errores. Desarrollar una base de datos adecuada para almacenar estos datos"
+            "description": "Recopilar datos históricos de las redes de tratamiento, almacenamiento y distribución de agua y preprocesarlos para eliminar inconsistencias y errores. Desarrollar una base de datos adecuada para almacenar estos datos"
         },
         "step2": {
             "title": "Modelado de gráficos e identificación de topología",
-            "description": "Desarrollar algoritmos GNN para modelar la topología de la red de distribución de agua en forma de gráfico. Identificar los nodos claves de la red"
+            "description": "Desarrollar algoritmos GNN para modelar la topología de la red de tratamiento, almacenamiento y distribución de agua en forma de gráfico. Identificar los nodos claves de la red"
         },
         "step3": {
             "title": "Aprendizaje de comportamiento normal",
-            "description": "Utilizar datos históricos para entrenar los algoritmos GNN para identificar el comportamiento normal en la red de distribución de agua"
+            "description": "Utilizar datos históricos para entrenar los algoritmos GNN para identificar el comportamiento normal en la red de tratamiento, almacenamiento y distribución de agua"
         },
         "step4": {
             "title": "Análisis de datos en tiempo real",
@@ -61,7 +65,7 @@
         },
         "step6": {
             "title": "Integración y pruebas",
-            "description": "Integrar los algoritmos GNN en la red de distribución de agua y probar el sistema en un entorno simulado"
+            "description": "Integrar los algoritmos GNN en la red de tratamiento, almacenamiento y distribución de agua y probar el sistema en un entorno simulado"
         },
         "step7": {
             "title": "Implementación y mantenimiento",
