@@ -1,5 +1,5 @@
 import React from 'react';
-import './video-continer.css';
+import './video-container.css';
 
 const VideoContainer = () => {
   return (
