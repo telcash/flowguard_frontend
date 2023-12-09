@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.fg__features h1 {
+.fg__features h1:first-child {
     color: #1E255E;
     font-size: 50px;
     font-weight: 700;
@@ -19,5 +19,5 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    row-gap: 20px;
+    row-gap: 10px;
 }
