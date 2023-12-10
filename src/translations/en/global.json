@@ -39,32 +39,33 @@
         "title": "Our partners"
     },
     "project-plan": {
+        "title": "Our process",
         "step1": {
-            "title": "Data collection and preprocessing",
+            "title": "1. Data collection and preprocessing",
             "description": "Collect historical data on water distribution networks and preprocess the data to remove any inconsistencies and errors. Develop an appropriate database to store the preprocessed data"
         },
         "step2": {
-            "title": "Graph modeling and topology identification",
+            "title": "2. Graph modeling and topology identification",
             "description": "Develop GNN algorithms to model the topology of the water distribution network as a graph. Identify the key nodes and edges in the network"
         },
         "step3": {
-            "title": "Normal behavior learning",
+            "title": "3. Normal behavior learning",
             "description": "Use historical data to train the GNN algorithms to identify normal behavior in the water distribution network"
         },
         "step4": {
-            "title": "Real-time data analysis",
+            "title": "4. Real-time data analysis",
             "description": "Develop GNN algorithms to analyze real-time data from sensors and other sources to identify anomalies that deviate from normal behavior and indicate the presence of a cyberattack"
         },
         "step5": {
-            "title": "Sensor and security measure optimization",
+            "title": "5. Sensor and security measure optimization",
             "description": "Use GNN algorithms to simulate attacks on the network and analyze the results to identify the optimal locations for sensors"
         },
         "step6": {
-            "title": "Integration and testing",
+            "title": "6. Integration and testing",
             "description": "Integrate the GNN algorithms into the water distribution network and test the system in a simulated environment"
         },
         "step7": {
-            "title": "Deployment and maintenance",
+            "title": "7. Deployment and maintenance",
             "description": "Deploy the system in a real-world environment and provide ongoing maintenance and support"
         }
     }

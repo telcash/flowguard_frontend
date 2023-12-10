@@ -7,6 +7,7 @@
     margin: 0 auto;
     max-width: 1440px;
     display: flex;
+    justify-content: center;
 }
 
 .fg__hero-container_info {
@@ -55,6 +56,19 @@
 .fg__hero-container_slider {
     flex: 50%;
     padding: 1rem;
+    max-width: 720px;
+}
+
+.fg__hero-container_img {
+    flex: 50%;
+    max-width: 720px;
+    max-height: 720px;
+}
+
+.fg__hero-container_img img {
+    max-width: 720px;
+    max-height: 720px;
+    border-radius: 50px;
 }
 
 .fg__hero-container_slider img {

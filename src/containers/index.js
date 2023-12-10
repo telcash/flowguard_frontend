@@ -4,3 +4,4 @@ export { default as Footer } from './footer/Footer';
 export { default as Team } from './team/Team';
 export { default as MainNav } from './main-nav/MainNav';
 export { default as Partners } from './partners/Partners';
+export { default as Process } from './process/Process';

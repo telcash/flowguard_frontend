@@ -1,7 +1,8 @@
 import React from "react";
 import './hero-section.css';
 import { useTranslation } from 'react-i18next';
-import { MainSlider, Waves } from "../../components";
+import { Waves } from "../../components";
+import heroImg from "../../assets/hero_img/hero-img.jpg";
 
 const HeroSection = () => {
     const [t] = useTranslation("global");
@@ -15,8 +16,8 @@ const HeroSection = () => {
                         <button>Action</button>
                     </div>
                 </div>
-                <div className="fg__hero-container_slider">
-                    <MainSlider></MainSlider>
+                <div className="fg__hero-container_img">
+                    <img src={heroImg} alt="" />
                 </div>
             </div>
             <Waves></Waves>
