@@ -18,17 +18,18 @@ const MainNav = () => {
                     <span>Flowguard</span>
                 </div>
                 <div className='fg__mainnav-links'>
-                    <div className='fg__mainnav-links_languages'>
+                    {/* <div className='fg__mainnav-links_languages'>
                         <button onClick={() => i18n.changeLanguage("es")}>
                             <img src={esIcon} alt="español" />
                         </button>
                         <button onClick={() => i18n.changeLanguage("en")}>
                             <img src={enIcon} alt="english" />
                         </button>
-                    </div>
-                    <a href='#features'>{t("header.main-nav.link1")}</a>
-                    <a href='#partners'>{t("header.main-nav.link2")}</a>
-                    <a href='#footer'>{t("header.main-nav.link3")}</a>
+                    </div> */}
+                    <a href='#features'>{t("main-nav.links.why")}</a>
+                    <a href='#partners'>{t("main-nav.links.partners")}</a>
+                    <a href='#process'>{t("main-nav.links.process")}</a>
+                    <a href='#footer'>{t("main-nav.links.contact")}</a>
                 </div>
             </div>
         </div>

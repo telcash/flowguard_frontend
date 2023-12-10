@@ -1,10 +1,13 @@
 {
+    "main-nav": {
+        "links": {
+            "why": "¿Por qué Flowguard?",
+            "partners": "Nuestros partners",
+            "process": "Nuestro proceso",
+            "contact": "Contacto"
+        }
+    },
     "header": {
-        "main-nav": {
-            "link1": "¿Por qué Flowguard?",
-            "link2": "Nuestros partners",
-            "link3": "Contacto"
-        },
         "tagline": "Potenciando la Ciberseguridad de las Infraestructuras críticas de Agua públicas y privadas",
         "description": "Con el poder de la IA identificamos en tiempo real cualquier comportamiento anómalo o potencial vulnerabilidad en los sistemas de tratamiento y suministro de agua para prevenir ciberataques"
     },

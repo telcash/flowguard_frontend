@@ -15,12 +15,7 @@ a {
 }
 
 nav {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    background-color: rgba(256, 256, 256, 0.75);
-    padding: 1.5rem 0;
+    width: 100%; 
 }
 
 main {

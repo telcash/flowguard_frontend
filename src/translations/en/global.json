@@ -1,8 +1,11 @@
 {
     "main-nav": {
-        "link1": "Why Flowguard?",
-        "link2": "Our partners",
-        "link3": "Contact"
+        "links": {
+            "why": "Why Flowguard?",
+            "partners": "Our partners",
+            "process": "Our process",
+            "contact": "Contact"
+        }
     },
     "header": {
         "tagline": "Empowering cybersecurity in public drinking water supply systems",

@@ -3,7 +3,11 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 0 1rem;
+    padding: 1.5rem 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(256, 256, 256, 0.75);
 }
 
 .fg__mainnav-container {
@@ -46,12 +50,12 @@
     gap: 7.5rem;
 }
 
-.fg__mainnav-links_languages {
+/* .fg__mainnav-links_languages {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 1rem;
-}
+} */
 
 .fg__mainnav-links a {
     color: #1E255E;
