@@ -1,23 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './main-nav.css';
 import logo from '../../assets/logo.png';
+import navIcon from '../../assets/nav-icon.png';
 import { useTranslation } from 'react-i18next';
-import esIcon from '../../assets/spain-flag.png';
-import enIcon from '../../assets/great-britain.png';
+//import esIcon from '../../assets/spain-flag.png';
+//import enIcon from '../../assets/great-britain.png';
 
 const MainNav = () => {
-    const [t, i18n] = useTranslation("global");
+    const [t] = useTranslation("global");
+    const [expanded, setExpanded] = useState(false);
     return (
-        <div className='fg__mainnav'>
+        <div className={`fg__mainnav ${expanded ? 'fullscreen' : ''}`}>
             <div className='fg__mainnav-container'>
+                <div className='fg__mainnav-navbutton' onClick={() => setExpanded(!expanded)}>
+                    <img src={navIcon} alt='logo' />
+                </div>
                 <div className='fg__mainnav-logo_container'>
-                    <img
-                        src={logo}
-                        alt='logo' 
-                    />
+                    <img src={logo} alt='logo' />
                     <span>Flowguard</span>
                 </div>
-                <div className='fg__mainnav-links'>
+                <div className={`fg__mainnav-links ${expanded ? 'expanded' : ''}`}>
                     {/* <div className='fg__mainnav-links_languages'>
                         <button onClick={() => i18n.changeLanguage("es")}>
                             <img src={esIcon} alt="español" />
@@ -26,10 +28,10 @@ const MainNav = () => {
                             <img src={enIcon} alt="english" />
                         </button>
                     </div> */}
-                    <a href='#features'>{t("main-nav.links.why")}</a>
-                    <a href='#partners'>{t("main-nav.links.partners")}</a>
-                    <a href='#process'>{t("main-nav.links.process")}</a>
-                    <a href='#footer'>{t("main-nav.links.contact")}</a>
+                    <a href='#features' onClick={() => setExpanded(false)}>{t("main-nav.links.why")}</a>
+                    <a href='#partners' onClick={() => setExpanded(false)}>{t("main-nav.links.partners")}</a>
+                    <a href='#process' onClick={() => setExpanded(false)}>{t("main-nav.links.process")}</a>
+                    <a href='#footer' onClick={() => setExpanded(false)}>{t("main-nav.links.contact")}</a>
                 </div>
             </div>
         </div>
