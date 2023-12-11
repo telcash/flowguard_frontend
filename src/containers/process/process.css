@@ -6,6 +6,8 @@
     justify-content: center;
     align-items: center;
     row-gap: 60px;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .fg__process h1:first-child {
@@ -15,7 +17,7 @@
 }
 
 .fg__process-slider {
-    max-width: 600px;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
