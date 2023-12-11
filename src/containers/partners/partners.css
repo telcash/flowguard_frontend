@@ -8,7 +8,7 @@
     row-gap: 30px;
 }
 
-.fg__partners h1 {
+.fg__partners h1:first-child {
     color: #1E255E;
     font-size: 50px;
     font-weight: 700;
@@ -24,4 +24,19 @@
 .fg__partners-logos img {
     width: 330px;
     height: auto;
+}
+
+@media (max-width:768px) {
+    .fg__partners {
+        margin-top: 60px;
+    }
+
+    .fg__partners h1:first-child {
+        font-size: 36px;
+    }
+
+    .fg__partners-logos {
+        flex-direction: column;
+        row-gap: 50px;
+    }
 }
