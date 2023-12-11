@@ -9,10 +9,6 @@ import { useTranslation } from 'react-i18next';
 const MainNav = () => {
     const [t] = useTranslation("global");
     const [expanded, setExpanded] = useState(false);
-    const setVertical = () => {
-        setExpanded(false);
-        window.scrollBy(0, -120);
-    }
     return (
         <div className={`fg__mainnav ${expanded ? 'fullscreen' : ''}`}>
             <div className='fg__mainnav-container'>
