@@ -17,3 +17,13 @@
 .fg__process-slider {
     max-width: 600px;
 }
+
+@media (max-width: 768px) {
+    .fg__process-slider {
+        padding: 0 1rem;
+    }
+
+    .fg__process h1:first-child {
+        font-size: 36px;
+    }
+}

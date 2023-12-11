@@ -16,7 +16,7 @@
     position: relative;
     left: 0;
     top: 0;
-    height: 160px;
+    height: 200px;
 }
 
 .carousel-caption h3 {
@@ -27,4 +27,14 @@
 .carousel-caption p {
     font-size: 16px;
     color: #333
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        height: 240px;
+    }
+    
+    .carousel-caption p {
+        margin: 0 1rem;
+    }
 }
