@@ -12,12 +12,14 @@ const MainNav = () => {
     return (
         <div className={`fg__mainnav ${expanded ? 'fullscreen' : ''}`}>
             <div className='fg__mainnav-container'>
-                <div className='fg__mainnav-navbutton' onClick={() => setExpanded(!expanded)}>
-                    <img src={navIcon} alt='logo' />
-                </div>
-                <div className='fg__mainnav-logo_container'>
-                    <img src={logo} alt='logo' />
-                    <span>Flowguard</span>
+                <div className='fg__mainnav-actions'>
+                    <div className='fg__mainnav-navbutton' onClick={() => setExpanded(!expanded)}>
+                        <img src={navIcon} alt='logo' />
+                    </div>
+                    <div className='fg__mainnav-logo_container'>
+                        <img src={logo} alt='logo' />
+                        <span>Flowguard</span>
+                    </div>
                 </div>
                 <div className={`fg__mainnav-links ${expanded ? 'expanded' : ''}`}>
                     {/* <div className='fg__mainnav-links_languages'>
