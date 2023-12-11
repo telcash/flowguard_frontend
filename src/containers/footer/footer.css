@@ -59,3 +59,19 @@
     font-weight: 500;
     line-height: 150%; /* 21px */
 }
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .fg__footer-content {
+        column-gap: 75px;
+    }
+}
+
+@media (max-width: 768px) {
+    .fg__footer {
+        padding: 2rem 2rem;
+    }
+
+    .fg__footer-content {
+        flex-direction: column;
+    }
+}
