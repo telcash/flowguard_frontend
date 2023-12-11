@@ -21,3 +21,14 @@
     align-items: center;
     row-gap: 10px;
 }
+
+@media (max-width: 768px) {
+    .fg__features h1:first-child {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .fg__features-container {
+        padding: 0 1rem;
+    }
+}

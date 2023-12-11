@@ -94,5 +94,11 @@
       -webkit-transform: translateX(-6px) rotate(-1.2deg);
               transform: translateX(-6px) rotate(-1.2deg);
     }
-  }
+}
+
+@media (max-width: 768px) {
+        .fg__feature p {
+                height: auto;
+        } 
+}
   
