@@ -1,14 +1,42 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import './main-slider.css';
 import Carousel from 'react-bootstrap/Carousel';
 import { dataPreprocessingImg, dataTopologyImg, normalBehaviourLearnImg, realTimeDataImg, sensorsOptimizationImg, integrationTestImg, implementationMainteinance } from "../../assets/process_img";
 import { useTranslation } from 'react-i18next';
 
+export const useIntersection = (element, rootMargin) => {
+    const [isVisible, setVisible] = useState(false);
+    
+    useEffect(() => {
+        const current = element?.current;
+        const observer = new IntersectionObserver(
+            ([entry]) => {
+                setVisible(entry.isIntersecting);
+            },
+            {rootMargin}
+        );
+        current && observer?.observe(current);
+
+        return () => current && observer.unobserve(current);
+    });
+    return isVisible;
+}
+
 const MainSlider = () => {
+    const ref = useRef(null);
+    const isVisible = useIntersection(ref, "0px");
+    const [interval, setInterval] = useState(null);
+
+    useEffect(() => {
+        if(isVisible) {
+            setInterval(10000);
+        }
+    },[isVisible]);
+
     const [t] = useTranslation("global");
     return (
-        <div className="fg__mainSlider">
-            <Carousel slide={false} indicators={false}>
+        <div className="fg__mainSlider" ref={ref}>
+            <Carousel slide={false} indicators={false} interval={interval}>
                 <Carousel.Item>
                     <div className="fg__mainSlider-item">
                         <div className="fg__mainSlider-item_img">
