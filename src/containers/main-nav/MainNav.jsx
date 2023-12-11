@@ -9,6 +9,10 @@ import { useTranslation } from 'react-i18next';
 const MainNav = () => {
     const [t] = useTranslation("global");
     const [expanded, setExpanded] = useState(false);
+    const setVertical = () => {
+        setExpanded(false);
+        window.scrollBy(0, -120);
+    }
     return (
         <div className={`fg__mainnav ${expanded ? 'fullscreen' : ''}`}>
             <div className='fg__mainnav-container'>
@@ -16,10 +20,10 @@ const MainNav = () => {
                     <div className='fg__mainnav-navbutton' onClick={() => setExpanded(!expanded)}>
                         <img src={navIcon} alt='logo' />
                     </div>
-                    <div className='fg__mainnav-logo_container'>
+                    <a href='#hero' className='fg__mainnav-logo_container' onClick={() => setExpanded(false)}>
                         <img src={logo} alt='logo' />
                         <span>Flowguard</span>
-                    </div>
+                    </a>
                 </div>
                 <div className={`fg__mainnav-links ${expanded ? 'expanded' : ''}`}>
                     {/* <div className='fg__mainnav-links_languages'>
@@ -31,8 +35,8 @@ const MainNav = () => {
                         </button>
                     </div> */}
                     <a href='#features' onClick={() => setExpanded(false)}>{t("main-nav.links.why")}</a>
-                    <a href='#partners' onClick={() => setExpanded(false)}>{t("main-nav.links.partners")}</a>
                     <a href='#process' onClick={() => setExpanded(false)}>{t("main-nav.links.process")}</a>
+                    <a href='#partners' onClick={() => setExpanded(false)}>{t("main-nav.links.partners")}</a>
                     <a href='#footer' onClick={() => setExpanded(false)}>{t("main-nav.links.contact")}</a>
                 </div>
             </div>

@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 30px;
+    row-gap: 60px;
 }
 
 .fg__process h1:first-child {
