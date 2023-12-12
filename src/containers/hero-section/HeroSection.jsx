@@ -1,7 +1,7 @@
 import React from "react";
 import './hero-section.css';
 import { useTranslation } from 'react-i18next';
-import { Waves } from "../../components";
+import { Waves, Rain } from "../../components";
 import heroImg from "../../assets/hero_img/hero-img.jpg";
 
 const HeroSection = () => {
@@ -20,7 +20,9 @@ const HeroSection = () => {
                     <img src={heroImg} alt="" />
                 </div>
             </div>
-            <Waves></Waves>
+            <div className="rain_container">
+                <Rain></Rain>
+            </div>
         </div>
     );
 }

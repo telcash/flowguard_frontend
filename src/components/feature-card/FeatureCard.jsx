@@ -1,5 +1,6 @@
 import React, {useState } from "react";
 import './feature-card.css';
+import { Waves } from '../../components';
 
 const FeatureCard = ({icon, title, description}) => {
     const [hover, setHover] = useState(false);
@@ -8,7 +9,7 @@ const FeatureCard = ({icon, title, description}) => {
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}>
             <div className={
-                `fg__featureCard ${hover ? 'scale-in-center' : ''}`
+                `fg__featureCard ${hover ? 'rotate-in-ver' : ''}`
             }>
                 <figure className="fg__featureCard-icon">
                     <img src={icon} alt={title} />
@@ -17,6 +18,7 @@ const FeatureCard = ({icon, title, description}) => {
                     <h3>{title}</h3>
                     <p>{description}</p>
                 </div>
+                <Waves></Waves>
             </div>
         </article>
     );
