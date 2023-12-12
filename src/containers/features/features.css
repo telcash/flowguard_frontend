@@ -1,35 +1,26 @@
 .fg__features {
     width: 100%;
-    margin-top: 40px;
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 120px;
 }
 
-.fg__features h1:first-child {
-    color: #1E255E;
-    font-size: 50px;
-    font-weight: 700;
+.fg__features h2 {
+    width: 100%;
+    margin-bottom: var(--subtitles-margin-bottom);
+    text-align: center;
+    color: var(--primary-color);
+    font-size: var(--subtitles-font-size);
+    font-weight: var(--subtitles-font-weight);
 }
 
-.fg__features-container {
+.fg__features_cards {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    row-gap: 10px;
-}
-
-@media (max-width: 768px) {
-    .fg__features h1:first-child {
-        font-size: 36px;
-        text-align: center;
-    }
-
-    .fg__features-container {
-        padding: 0 1rem;
-    }
+    row-gap: 5rem;
 }

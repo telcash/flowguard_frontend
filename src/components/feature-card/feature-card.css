@@ -34,7 +34,7 @@
     align-items: center;
 }
 
-.fg__featureCard-body h2 {
+.fg__featureCard-body h3 {
     color: var(--primary-color);
     text-align: center;
 }

@@ -14,7 +14,7 @@ const FeatureCard = ({icon, title, description}) => {
                     <img src={icon} alt={title} />
                 </figure>
                 <div className="fg__featureCard-body">
-                    <h2>{title}</h2>
+                    <h3>{title}</h3>
                     <p>{description}</p>
                 </div>
             </div>
