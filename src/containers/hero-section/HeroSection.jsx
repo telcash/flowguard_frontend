@@ -13,7 +13,7 @@ const HeroSection = () => {
                     <h1>{t("header.tagline")}</h1>
                     <p>{t("header.description")}</p>
                     <div className="fg__hero-container_info-actions">
-                        <button>Action</button>
+                        <button><a href="#features">{t("features.title")}</a></button>
                     </div>
                 </div>
                 <div className="fg__hero-container_img">
