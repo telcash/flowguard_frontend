@@ -1,6 +1,5 @@
 import React, {useState } from "react";
 import './feature-card.css';
-import { Waves } from '../../components';
 
 const FeatureCard = ({icon, title, description}) => {
     const [hover, setHover] = useState(false);
@@ -18,7 +17,6 @@ const FeatureCard = ({icon, title, description}) => {
                     <h3>{title}</h3>
                     <p>{description}</p>
                 </div>
-                <Waves></Waves>
             </div>
         </article>
     );

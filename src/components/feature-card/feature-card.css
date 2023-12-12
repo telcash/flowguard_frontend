@@ -9,7 +9,6 @@
     justify-content: flex-start;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background: linear-gradient(0deg, rgba(23,164,208,0.5) 0%, rgba(256,256,256,0.5) 100%);
 }
 
 .fg__featureCard-icon {
