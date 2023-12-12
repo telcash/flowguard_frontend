@@ -1,7 +1,7 @@
 import React from "react";
 import './hero-section.css';
 import { useTranslation } from 'react-i18next';
-import { Waves, Rain } from "../../components";
+import { Rain } from "../../components";
 import heroImg from "../../assets/hero_img/hero-img.jpg";
 
 const HeroSection = () => {

@@ -20,8 +20,8 @@
     margin-bottom: var(--subtitles-margin-bottom);
     text-align: center;
     color: var(--primary-color);
-    font-size: var(--subtitles-font-size);
-    font-weight: var(--subtitles-font-weight);
+    font-size: 52px;
+    font-weight: bolder;
 }
 
 .fg__features_cards {
