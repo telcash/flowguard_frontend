@@ -6,6 +6,10 @@
     --subtitles-font-size: 50px;
     --subtitles-font-weight: 700px;
     --subtitles-margin-bottom: 50px;
+
+    --primary: #6a59ff;
+    --white: #ffffff;
+    --bg: #f5f5f5;
 }
 
 * {
