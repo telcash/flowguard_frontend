@@ -95,18 +95,16 @@ function mouseMove(e) {
         posx = e.pageX - canvas.current.getBoundingClientRect().x - window.scrollX;
         posy = e.pageY - canvas.current.getBoundingClientRect().y - window.scrollY;
     } else if (e.clientX || e.clientY) {
-        console.log('client');
-        console.log(e.clientX);
-        console.log(e.clientY);
         posx =
-        e.clientX +
-        document.body.scrollLeft +
-        document.documentElement.scrollLeft;
+        e.clientX - canvas.current.getBoundingClientRect().x - window.scrollX;
         posy =
-        e.clientY +
-        document.body.scrollTop +
-        document.documentElement.scrollTop;
+        e.clientY - canvas.current.getBoundingClientRect().y - window.scrollY;
     }
+
+    if (posx === 0) {
+      posx = 1;
+    }
+
     if (target && target.x && target.y ) {
         target.x = posx;
         target.y = posy;
@@ -119,8 +117,9 @@ function scrollCheck() {
 }
 
 function resize() {
-    width = window.innerWidth;
-    height = 400;
+    const rect = canvas.current.getBoundingClientRect();
+    width = rect.right - rect.left; 
+    height = rect.bottom - rect.top;
     canvas.current.width = width;
     canvas.current.height = height;
 }
