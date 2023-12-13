@@ -1,7 +1,7 @@
 import React from "react";
 import './partners.css';
-import neoradixLogo from '../../assets/neoradix-gray.png';
-import airtraceLogo from '../../assets/airtrace-gray.png';
+import { PartnerLogo } from "../../components";
+import { airtraceLogoGray, airtraceLogoColor, neoradixLogoGray, neoradixLogoColor } from '../../assets/partners_img';
 import { useTranslation } from 'react-i18next';
 
 const Partners = () => {
@@ -10,12 +10,18 @@ const Partners = () => {
         <div className="fg__partners">
             <h1>{t("partners.title")}</h1>
             <div className="fg__partners-logos">
-                <a href="https://airtrace.io" target="blank">
-                    <img src={airtraceLogo} alt="logo airtrace" />
-                </a>
-                <a href="https://neoradixsolutions.com" target="blank">
-                    <img src={neoradixLogo} alt="logo neoradix" />
-                </a>
+                <PartnerLogo
+                    name={'Airtrace'}
+                    logoGray={airtraceLogoGray}
+                    logoColor={airtraceLogoColor}
+                    url={"https://airtrace.io"}
+                />
+                <PartnerLogo
+                    name={'Neoradix'}
+                    logoGray={neoradixLogoGray}
+                    logoColor={neoradixLogoColor}
+                    url={"https://neoradixsolutions.com"}
+                />
             </div>
         </div>
     );

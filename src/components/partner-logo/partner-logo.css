@@ -1,0 +1,11 @@
+.fg__partnerLogo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fg__partnerLogo img {
+    width: 330px;
+    height: auto;
+}

@@ -21,11 +21,6 @@
     align-items: center;
 }
 
-.fg__partners-logos img {
-    width: 330px;
-    height: auto;
-}
-
 @media (max-width:768px) {
     .fg__partners {
         margin-top: 60px;
