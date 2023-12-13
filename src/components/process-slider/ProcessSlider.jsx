@@ -1,23 +1,32 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import './process-slider.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 import { dataPreprocessingImg, dataTopologyImg, implementationMainteinance, integrationTestImg, normalBehaviourLearnImg, realTimeDataImg, sensorsOptimizationImg} from '../../assets/process_img';
 
 const ProcessSlider = () => {
   return (
-    <div className='container'>
-        <h1 className='heading'>Titulo</h1>
-        <Swiper effect={'coverflow'} grabCursor={true} centeredSlides={true} loop={true} slidesPerView={'auto'}
-            coverflowEffect={{ rotate: 0, stretch: 0, depth: 100, modifier: 2.5}}
-            pagination={{el: '.swiper-pagination', clickable: true}}
-            navigation={{nextEl:'.swiper-button-next', prevEl:'.swiper-button-next', clickable: true,}}
-            modules={[EffectCoverflow, Pagination, Navigation]}
-            className='swiper_container'
+    <div className='fg__processSlider'>
+        <Swiper 
+            effect={'coverflow'}
+            grabCursor={true}
+            centeredSlides={true}
+            slidesPerView={'auto'}
+            loop={true}
+            initialSlide={1}
+            coverflowEffect={{
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            }}
+            pagination={true}
+            modules={[EffectCoverflow, Pagination]}
+            className='mySwiper'
         >
             <SwiperSlide>
                 <img src={dataPreprocessingImg} alt='' />
@@ -40,15 +49,6 @@ const ProcessSlider = () => {
             <SwiperSlide>
                 <img src={implementationMainteinance} alt='' />
             </SwiperSlide>
-            <div className="slider-controler">
-                <div className="swiper-button-prev slider-arrow">
-                    <button>P</button>
-                </div>
-                <div className="swiper-button-next slider-arrow">
-                    <button>N</button>
-                </div>
-                <div className="swiper-pagination"></div>
-            </div>
         </Swiper>
     </div>
   );

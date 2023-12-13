@@ -1,31 +1,36 @@
 .fg__process {
-    margin-top: 120px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 60px;
-    margin: 0 auto;
-    max-width: 1440px;
 }
 
-.fg__process h1:first-child {
+.fg__process-container{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 60px;
+}
+
+.fg__process-container h1:first-child {
     color: #1E255E;
     font-size: 50px;
     font-weight: 700;
 }
 
-.fg__process-slider {
+.fg__process-container-slider {
     width: 100%;
 }
 
 @media (max-width: 768px) {
-    .fg__process-slider {
+    .fg__process-container-slider {
         padding: 0 1rem;
     }
 
-    .fg__process h1:first-child {
+    .fg__process-container h1:first-child {
         font-size: 36px;
     }
 }
