@@ -35,7 +35,7 @@
         },
         "environment-impact": {
             "title": "Reducción de la Huella de Carbono y Huella Hídrica",
-            "description": "La herramienta Flowguard analiza el flujo de agua en toda la red, se pueden detectar y corregir fugas, minimizando las pérdidas. Al digitalizar la red, los centros de decisión recibirán datos en tiempo real, reducirán las intervenciones, programarán el mantenimiento con mayor precisión y realizarán acciones correctivas de forma remota, reduciendo así las emisiones de carbono asociadas al transporte"
+            "description": "Flowguard analiza el flujo de agua en la red, detecta y corrige fugas, minimizando pérdidas. Los centros de decisión reciben datos en tiempo real, programan el mantenimiento con mayor precisión y realizan acciones correctivas de forma remota, reduciendo así las emisiones de carbono asociadas al transporte"
         },
         "plc-scada-integration": {
             "title": "Integración con los sistemas PLC y SCADA",

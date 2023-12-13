@@ -1,6 +1,6 @@
 import React from 'react';
 import './features.css';
-import { FeatureCard } from '../../components';
+import { FeatureCard, Neurons } from '../../components';
 import { neuralGif, dataQualityGif, cpuGif, speedGif, protectionGif, recyclingGif } from '../../assets/features_gif';
 import { useTranslation } from 'react-i18next';
 
@@ -18,6 +18,9 @@ const Features = () => {
           <FeatureCard icon={protectionGif} title={t("features.risk-management.title")} description={t("features.risk-management.description")}></FeatureCard>
           <FeatureCard icon={recyclingGif} title={t("features.environment-impact.title")} description={t("features.environment-impact.description")}></FeatureCard>
         </div>
+      </div>
+      <div className='fg__features-background'>
+        <Neurons></Neurons>
       </div>
     </div>
   );

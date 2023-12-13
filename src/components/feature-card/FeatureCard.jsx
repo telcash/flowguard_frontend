@@ -1,12 +1,20 @@
-import React, {useState } from "react";
+import React, { useState, useRef } from "react";
 import './feature-card.css';
 
 const FeatureCard = ({icon, title, description}) => {
     const [hover, setHover] = useState(false);
+    const article = useRef(null);
     return(
         <article
-            onMouseEnter={() => setHover(true)}
-            onMouseLeave={() => setHover(false)}>
+            ref={article}
+            onMouseEnter={() => {
+                setHover(true);
+                //article.current.style.zIndex = 0;
+            }}
+            onMouseLeave={() => {
+                setHover(false);
+                //article.current.style.zIndex = 100;
+            }}>
             <div className={
                 `fg__featureCard ${hover ? 'rotate-in-ver' : ''}`
             }>

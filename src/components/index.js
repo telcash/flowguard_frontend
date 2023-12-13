@@ -6,3 +6,4 @@ export { default as MainSlider } from './main-slider/MainSlider';
 export { default as Waves } from './waves/Waves';
 export { default as Rain } from './rain/Rain';
 export { default as ProcessSlider } from './process-slider/ProcessSlider';
+export { default as Neurons } from './neurons/Neurons';
