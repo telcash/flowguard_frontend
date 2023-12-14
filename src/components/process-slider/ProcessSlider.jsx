@@ -1,16 +1,22 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 import './process-slider.css';
 import { ProcessSlide } from '../../components';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import { dataPreprocessingImg, dataTopologyImg, implementationMainteinance, integrationTestImg, normalBehaviourLearnImg, realTimeDataImg, sensorsOptimizationImg} from '../../assets/process_img';
 import { useTranslation } from 'react-i18next';
 
 const ProcessSlider = () => {
   const [t] = useTranslation("global");
+  const pagination = {
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index + 1) + '</span>';
+    },
+  };
   return (
     <div className='fg__processSlider'>
         <Swiper 
@@ -27,8 +33,8 @@ const ProcessSlider = () => {
                 modifier: 1,
                 slideShadows: true,
             }}
-            pagination={true}
-            modules={[EffectCoverflow, Pagination]}
+            pagination={pagination}
+            modules={[EffectCoverflow, Pagination ]}
             className='mySwiper'
         >
             <SwiperSlide>

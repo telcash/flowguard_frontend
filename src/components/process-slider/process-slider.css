@@ -1,6 +1,10 @@
 .fg__processSlider {
   width: 100%;
   padding: 0 5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper {
@@ -14,13 +18,32 @@
 }
 
 .swiper-slide {
+  max-width: 100%;
   background-position: center;
   background-size: cover;
   width: 350px!important;
   height: 650px!important;
+
+  
 }
 
 .swiper-slide img {
   display: block;
   width: 100%;
+}
+
+.swiper-pagination-bullet {
+  width: 20px!important;
+  height: 20px!important;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
 }
