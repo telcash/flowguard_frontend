@@ -1,9 +1,11 @@
 .fg__footer {
     margin-top: 200px;
     display: flex;
-    padding: 2rem 9rem;
+    padding: 2rem;
     background-color: #424561;
     color: #fff;
+    width: 100%;
+    justify-content: center;
 }
 
 .fg__footer-content {
