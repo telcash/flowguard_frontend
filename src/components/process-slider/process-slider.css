@@ -16,8 +16,8 @@
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 380px!important;
-  height: 380px!important;
+  width: 350px!important;
+  height: 650px!important;
 }
 
 .swiper-slide img {
