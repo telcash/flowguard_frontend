@@ -4,17 +4,17 @@ import './feature-card.css';
 const FeatureCard = ({icon, title, description}) => {
     const [hover, setHover] = useState(false);
     const article = useRef(null);
+
     return(
         <article
             ref={article}
-            onMouseEnter={() => {
+            onMouseEnter={(e) => {
                 setHover(true);
-                //article.current.style.zIndex = 0;
             }}
             onMouseLeave={() => {
                 setHover(false);
-                //article.current.style.zIndex = 100;
-            }}>
+            }}
+        >
             <div className={
                 `fg__featureCard ${hover ? 'rotate-in-ver' : ''}`
             }>

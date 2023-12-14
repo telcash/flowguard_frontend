@@ -53,6 +53,7 @@
     font-size: 18px;
     font-weight: 700;
     border: none;
+    z-index: 1;
 }
 
 .fg__hero-container_slider {
