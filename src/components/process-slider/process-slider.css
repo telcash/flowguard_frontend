@@ -1,7 +1,6 @@
 .fg__processSlider {
   width: 100%;
   padding: 0 5rem;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,8 +22,6 @@
   background-size: cover;
   width: 350px!important;
   height: 650px!important;
-
-  
 }
 
 .swiper-slide img {

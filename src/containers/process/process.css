@@ -1,13 +1,10 @@
 .fg__process {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
 }
 
 .fg__process-container{
-    max-width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

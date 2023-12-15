@@ -5,7 +5,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import 'swiper/css/navigation';
+import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import { dataPreprocessingImg, dataTopologyImg, implementationMainteinance, integrationTestImg, normalBehaviourLearnImg, realTimeDataImg, sensorsOptimizationImg} from '../../assets/process_img';
 import { useTranslation } from 'react-i18next';
 
@@ -26,15 +27,16 @@ const ProcessSlider = () => {
             slidesPerView={'auto'}
             loop={true}
             initialSlide={1}
+            navigation={true}
             coverflowEffect={{
                 rotate: 50,
-                stretch: -50,
+                stretch: -60,
                 depth: 100,
                 modifier: 1,
                 slideShadows: true,
             }}
             pagination={pagination}
-            modules={[EffectCoverflow, Pagination ]}
+            modules={[EffectCoverflow, Pagination, Navigation ]}
             className='mySwiper'
         >
             <SwiperSlide>
