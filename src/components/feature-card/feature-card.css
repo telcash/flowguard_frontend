@@ -1,6 +1,5 @@
 article {
     z-index: 1;
-    pointer-events:stroke;
 }
 
 .fg__featureCard {
