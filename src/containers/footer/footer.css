@@ -12,6 +12,8 @@
     display: flex;
     align-items: flex-start;
     column-gap: 100px;
+    max-width: var(--content-max-width);
+    width: 100%;
 }
 
 .fg__footer-content_logo {

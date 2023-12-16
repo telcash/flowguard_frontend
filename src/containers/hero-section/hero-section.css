@@ -7,7 +7,8 @@
 .fg__hero-container {
     position: relative;
     margin: 0 auto;
-    max-width: 1440px;
+    width: 100%;
+    max-width: var(--content-max-width);
     display: flex;
     justify-content: center;
 }

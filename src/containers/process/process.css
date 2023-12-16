@@ -20,6 +20,7 @@
 
 .fg__process-container-slider {
     width: 100%;
+    max-width: var(--content-max-width);
 }
 
 @media (max-width: 768px) {

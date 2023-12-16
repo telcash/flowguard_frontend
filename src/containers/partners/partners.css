@@ -6,9 +6,12 @@
     justify-content: center;
     align-items: center;
     row-gap: 60px;
+    max-width: var(--content-max-width);
 }
 
 .fg__partners h1:first-child {
+    width: 100%;
+    text-align: center;
     color: #1E255E;
     font-size: 50px;
     font-weight: 700;
