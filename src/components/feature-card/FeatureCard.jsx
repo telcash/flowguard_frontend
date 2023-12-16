@@ -3,37 +3,38 @@ import './feature-card.css';
 
 const FeatureCard = ({icon, title, description}) => {
     const [hover, setHover] = useState(false);
+    const [toId, setToId] = useState(null);
     const article = useRef(null);
 
-    const flipcard = () => {
+    const flipCard = () => {
+        clearTimeout(toId);
         setHover(true);
         article.current.style.zIndex = 0;
-        console.log('se dispara onleave')
     }
+
+    const unflipCard = (event) => {
+        clearTimeout(toId);
+        if(
+            !(event.clientX > article.current.getBoundingClientRect().left &&
+            event.clientX < article.current.getBoundingClientRect().right &&
+            event.clientY > article.current.getBoundingClientRect().top &&
+            event.clientY < article.current.getBoundingClientRect().bottom)
+        ) {
+            setHover(false);
+        } else {
+            const id = setTimeout(() => {
+                setHover(false);
+            }, 500)
+            setToId(id);
+        }
+        article.current.style.zIndex = 1;
+    }
+
     return(
         <article
             ref={article}
-            onMouseEnter={() => {
-                flipcard();
-            }}
-            onMouseLeave={(e) => {
-                console.log(`x: ${e.clientX}`);
-                console.log(`left: ${article.current.getBoundingClientRect().left}`);
-                console.log(`right: ${article.current.getBoundingClientRect().right}`);
-                console.log(`y: ${e.clientY}`);
-                console.log(`top: ${article.current.getBoundingClientRect().top}`);
-                console.log(`bottom: ${article.current.getBoundingClientRect().bottom}`);
-                if(
-                    !(e.clientX > article.current.getBoundingClientRect().left &&
-                    e.clientX < article.current.getBoundingClientRect().right &&
-                    e.clientY > article.current.getBoundingClientRect().top &&
-                    e.clientY < article.current.getBoundingClientRect().bottom)
-                ) {
-                    setHover(false);
-                }
-                article.current.style.zIndex = 1;
-                console.log('se dispara onenter');
-            }}
+            onMouseEnter={() => flipCard()}
+            onMouseLeave={(e) => unflipCard(e)}
         >
             <div className={
                 `fg__featureCard ${hover ? 'rotate-in-ver' : ''}`
