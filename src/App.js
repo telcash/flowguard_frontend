@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { MainNav, Features, Partners, Footer, HeroSection, Process } from './containers';
+import { MainNav, Flowguard, Features, Partners, Footer, HeroSection, Process } from './containers';
 
 const App = () => (
     <div className='app'>
@@ -10,6 +10,9 @@ const App = () => (
         <main>
             <section id='hero'>
                 <HeroSection />
+            </section>
+            <section>
+                <Flowguard />
             </section>
             <section id='features'>
                 <Features />

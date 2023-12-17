@@ -1,0 +1,52 @@
+.fg__flowguard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fg__flowguard-header {
+    padding: 1rem 10rem;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(36, 67, 83);
+    color: white;
+}
+
+.fg__flowguard-header h2 {
+    text-align: center;
+    font-size: 100px;
+}
+
+.fg__flowguard-header p {
+    text-align: center;
+    font-size: 36px;
+}
+
+.fg__flowguard-info {
+    margin: 0 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3rem;
+}
+
+.fg__flowguard-info-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.fg__flowguard-info-logo {
+    width: 100%;
+    max-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fg__flowguard-info-logo img {
+    max-height: 600px;
+}
+
