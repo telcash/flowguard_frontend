@@ -2,7 +2,7 @@ import React from "react";
 import './hero-section.css';
 import { useTranslation } from 'react-i18next';
 import { Rain } from "../../components";
-import heroImg from "../../assets/hero_img/hero-img.jpg";
+import backgroundImg from "../../assets/hero-background.jpg";
 
 const HeroSection = () => {
     const [t] = useTranslation("global");
@@ -16,12 +16,12 @@ const HeroSection = () => {
                         <button><a href="#features">{t("features.title")}</a></button>
                     </div>
                 </div>
-                <div className="fg__hero-container_img">
-                    <img src={heroImg} alt="" />
-                </div>
             </div>
             <div className="rain_container">
                 <Rain></Rain>
+            </div>
+            <div className="fg__hero-container-background">
+                <img src={backgroundImg} alt="" />
             </div>
         </div>
     );
