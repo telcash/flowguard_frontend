@@ -92,17 +92,13 @@
     width: 32px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    .fg__mainnav-links {
-        gap: 5rem;
-    }
-}
 
 @media (max-width: 768px) {
     .fullscreen {
         height: 100%;
         align-items: flex-start;
         background-color: rgba(256, 256, 256, 0.9);
+        margin-top: 21px;
     }
 
     .fg__mainnav-container {
@@ -111,6 +107,7 @@
         align-items: flex-start;
         row-gap: 1rem;
         margin: 0 1rem;
+        
     }
 
     .fg__mainnav-logo_container {
