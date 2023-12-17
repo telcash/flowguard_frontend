@@ -1,7 +1,6 @@
 .fg__rain{
 	width: 100%;
     min-width: 450px;
-	max-width: 1440px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
