@@ -2,7 +2,7 @@
     --primary-color: #1E255E;
     --secondary-color: #17A4D0;
     --paragraph-color: #333;
-    --navbar-height: 120px;
+    --navbar-height: 90px;
     --subtitles-font-size: 50px;
     --subtitles-font-weight: 700px;
     --subtitles-margin-bottom: 50px;
@@ -36,10 +36,6 @@
 main {
     position: relative;
     top: var(--navbar-height);
-}
-
-section {
-    margin-top: 40px;
 }
 
 a {
