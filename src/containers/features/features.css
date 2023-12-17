@@ -5,12 +5,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
 }
 
 .fg__features-container {
     position: relative;
     width: 100%;
-    max-width: var(--content-max-width);
+    padding: 1rem 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,8 +31,9 @@
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    column-gap: 15rem;
     row-gap: 5rem;
 }
 
