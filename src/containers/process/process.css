@@ -1,10 +1,10 @@
 .fg__process {
     width: 100%;
-    margin: 0 auto;
 }
 
 .fg__process-container{
     width: 100%;
+    padding: 0 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +20,6 @@
 
 .fg__process-container-slider {
     width: 100%;
-    max-width: var(--content-max-width);
 }
 
 @media (max-width: 768px) {
