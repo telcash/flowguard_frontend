@@ -8,19 +8,17 @@ const HeroSection = () => {
     const [t] = useTranslation("global");
     return (
         <div className="fg__hero">
-            <div className="fg__hero-container">
-                <div className="fg__hero-container_info">
+            <div className="fg__hero-info">
                     <h1>{t("header.tagline")}</h1>
                     <p>{t("header.description")}</p>
-                    <div className="fg__hero-container_info-actions">
+                    <div className="fg__hero-info_actions">
                         <button><a href="#features">{t("features.title")}</a></button>
                     </div>
-                </div>
             </div>
             <div className="rain_container">
                 <Rain></Rain>
             </div>
-            <div className="fg__hero-container-background">
+            <div className="fg__hero-background">
                 <img src={backgroundImg} alt="" />
             </div>
         </div>
