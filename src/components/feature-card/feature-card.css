@@ -97,6 +97,33 @@ article {
         opacity: 1;
     }
 }
-  
-  
-  
+
+@media only screen and (max-width: 768px) {
+    .fg__featureCard {
+        min-height: 315px;
+    }
+
+    .fg__featureCard-icon img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .fg__featureCard-body h3 {
+        margin-top: 0;
+        font-size: 28px;
+    }
+
+    .fg__featureCard-body p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .fg__featureCard-body h3 {
+        font-size: 32px;
+    }
+
+    .fg__featureCard-body p {
+        font-size: 16px;
+    }
+}
