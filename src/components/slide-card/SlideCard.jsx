@@ -1,7 +1,7 @@
 import React from "react";
-import './process-slide.css';
+import './slide-card.css';
 
-const ProcessSlide = ({title, imgSrc, description}) => {
+const SlideCard = ({title, imgSrc, description}) => {
     return (
         <div className="fg__processSlide">
             <figure className="fg__processSlide-img">
@@ -15,4 +15,4 @@ const ProcessSlide = ({title, imgSrc, description}) => {
     );
 };
 
-export default ProcessSlide;
+export default SlideCard;

@@ -1,15 +1,9 @@
 .fg__processSlider {
   width: 100%;
-  padding: 0 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .swiper {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .swiper-wrapper {
@@ -17,11 +11,10 @@
 }
 
 .swiper-slide {
-  max-width: 100%;
+  width: 100%;
   background-position: center;
   background-size: cover;
-  width: 939px!important;
-  height: 850px!important;
+  
 }
 
 .swiper-slide img {

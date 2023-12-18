@@ -7,8 +7,16 @@
 }
 
 .fg__processSlide-img {
-    width: 939px;
-    height: 627px;
+    width: 100%;
+    max-width: 939px;
+    max-height: 627px;
+    min-width: 313px;
+    min-height: 283;
+}
+
+.fg__processSlide-img img {
+    width: 100%;
+    height: auto;
 }
 
 .fg__processSlide-info {
@@ -20,9 +28,11 @@
 .fg__processSlide-info h3 {
     text-align: center;
     color: var(--primary-color);
+    font-size: 28px;
 }
 
 .fg__processSlide-info p {
     text-align: center;
     color: var(--paragraph-color);
+    font-size: 18px;
 }

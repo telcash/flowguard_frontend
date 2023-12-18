@@ -1,6 +1,6 @@
 import React from 'react';
 import './process-slider.css';
-import { ProcessSlide } from '../../components';
+import { SlideCard } from '../../components';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -40,49 +40,49 @@ const ProcessSlider = () => {
             className='mySwiper'
         >
             <SwiperSlide>
-                <ProcessSlide 
+                <SlideCard 
                     imgSrc={test}
                     title={t("project-plan.step1.title")}
                     description={t("project-plan.step1.description")}
                 />
             </SwiperSlide>
             <SwiperSlide>
-                <ProcessSlide 
+                <SlideCard 
                     imgSrc={test}
                     title={t("project-plan.step2.title")}
                     description={t("project-plan.step2.description")}
                 />
             </SwiperSlide>
             <SwiperSlide>
-                <ProcessSlide 
+                <SlideCard 
                     imgSrc={test}
                     title={t("project-plan.step3.title")}
                     description={t("project-plan.step3.description")}
                 />
             </SwiperSlide>
             <SwiperSlide>
-                <ProcessSlide 
+                <SlideCard 
                     imgSrc={test}
                     title={t("project-plan.step4.title")}
                     description={t("project-plan.step4.description")}
                 />
             </SwiperSlide>
             <SwiperSlide>
-                <ProcessSlide 
+                <SlideCard 
                     imgSrc={test}
                     title={t("project-plan.step5.title")}
                     description={t("project-plan.step5.description")}
                 />
             </SwiperSlide>
             <SwiperSlide>
-                <ProcessSlide 
+                <SlideCard 
                     imgSrc={test}
                     title={t("project-plan.step6.title")}
                     description={t("project-plan.step6.description")}
                 />
             </SwiperSlide>
             <SwiperSlide>
-                <ProcessSlide 
+                <SlideCard 
                     imgSrc={test}
                     title={t("project-plan.step7.title")}
                     description={t("project-plan.step7.description")}
