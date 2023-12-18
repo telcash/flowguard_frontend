@@ -95,10 +95,10 @@
 
 @media (max-width: 768px) {
     .fullscreen {
+        padding-top: 12px;
         height: 100%;
         align-items: flex-start;
         background-color: rgba(256, 256, 256, 0.9);
-        margin-top: 21px;
     }
 
     .fg__mainnav-container {
@@ -106,8 +106,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         row-gap: 1rem;
-        margin: 0 1rem;
-        
+        margin: 0 1rem; 
     }
 
     .fg__mainnav-logo_container {
@@ -117,7 +116,7 @@
 
     .fg__mainnav-logo_container img {
         width: 45px;
-        height: 47.33px;
+        height: 65.31px;
         cursor: pointer;
     }
 
@@ -126,7 +125,8 @@
     }
 
     .fg__mainnav-navbutton {
-        display: block;
+        display: flex;
+        align-items: center;
         cursor: pointer;
     }
 
