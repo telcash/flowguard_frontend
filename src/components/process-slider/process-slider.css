@@ -22,6 +22,10 @@
   width: 100%;
 }
 
+.swiper-pagination {
+  position: relative!important;
+}
+
 .swiper-pagination-bullet {
   width: 20px!important;
   height: 20px!important;

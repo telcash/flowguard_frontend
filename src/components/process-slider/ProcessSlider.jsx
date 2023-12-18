@@ -24,9 +24,9 @@ const ProcessSlider = () => {
             effect={'coverflow'}
             grabCursor={true}
             centeredSlides={true}
-            slidesPerView={'auto'}
+            slidesPerView={1}
             loop={true}
-            initialSlide={1}
+            initialSlide={0}
             navigation={true}
             coverflowEffect={{
                 rotate: 50,

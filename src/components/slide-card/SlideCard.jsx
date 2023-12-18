@@ -9,7 +9,9 @@ const SlideCard = ({title, imgSrc, description}) => {
             </figure>
             <div className="fg__processSlide-info">
                 <h3>{title}</h3>
-                <p>{description}</p>
+                <div className="fg__processSlide-info-description">
+                    <p>{description}</p>
+                </div>
             </div>
         </div>
     );
