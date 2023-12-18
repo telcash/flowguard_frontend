@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid rgb(36, 67, 83);
+    padding-bottom: 1rem;
 }
 
 .fg__flowguard-header {
@@ -73,7 +74,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+    overflow: hidden;
 }
+
+.shine-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.2), transparent, rgba(255, 255, 255, 0.2));
+    animation: shine-animation 6s infinite;
+  }
+
+  @keyframes shine-animation {
+    0%{
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(100%);
+      opacity: 1;
+    }
+  }
+
 
 .fg__flowguard-info-logo img {
     max-height: 600px;

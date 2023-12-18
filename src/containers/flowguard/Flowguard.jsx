@@ -22,6 +22,7 @@ const Flowguard = () => {
                 </div>
                 <div className="fg__flowguard-info-logo">
                     <img src={logo} alt="" />
+                    <div className="shine-overlay"></div>
                 </div>
                 <div className="fg__flowguard-info-text-right">
                     <ul>
