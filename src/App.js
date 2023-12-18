@@ -11,7 +11,7 @@ const App = () => (
             <section id='hero'>
                 <HeroSection />
             </section>
-            <section>
+            <section id='flowguard'>
                 <Flowguard />
             </section>
             <section id='features'>

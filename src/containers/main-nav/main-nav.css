@@ -138,6 +138,7 @@
     }
 
     .fg__mainnav-links a {
+        text-align: center;
         font-size: 36px;
         font-weight: 700;
     }
@@ -147,8 +148,24 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1600px) {
+@media (min-width: 768px) and (max-width: 1200px) {
     .fg__mainnav-container{
         margin-left: 3rem;
+    }
+
+    .fg__mainnav-links {
+        gap: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .fg__mainnav-container{
+        margin-left: 3rem;
+    }
+
+    .fg__mainnav-links {
+        gap: 5rem;
     }
 }
