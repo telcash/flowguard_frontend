@@ -88,6 +88,7 @@ export class Circle {
 }
 
 function mouseMove(e) {
+    console.log()
     let posy = 0;
     let posx = 0;
 
