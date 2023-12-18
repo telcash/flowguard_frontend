@@ -25,22 +25,48 @@
 }
 
 .fg__flowguard-info {
-    margin: 0 10rem;
+    width: 100%;
+    margin: 3rem 10rem 0 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 3rem;
+    grid-template-rows: 1fr;
 }
 
-.fg__flowguard-info-text {
+.fg__flowguard-info-text-left, .fg__flowguard-info-text-right {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 36px;
+    font-size: 24px;
+    padding: 0 3rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.fg__flowguard-info-text-left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.fg__flowguard-info-text-right {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.fg__flowguard-info li {
+    margin-bottom: 2rem;
 }
 
 .fg__flowguard-info-logo {
     width: 100%;
     max-height: 750px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,4 +74,79 @@
 
 .fg__flowguard-info-logo img {
     max-height: 600px;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .fg__flowguard-header {
+        padding: 1rem;
+    }
+
+    .fg__flowguard-header h2 {
+        font-size: 48px;
+    }
+    
+    .fg__flowguard-header p {
+        font-size: 18px;
+    }
+
+    .fg__flowguard-info {
+        margin: 3rem 0 0 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+
+    .fg__flowguard-info-text-left {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        font-size: 16px;
+        padding: 0 0.75rem;
+    }
+
+    .fg__flowguard-info-text-right {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        font-size: 16px;
+        padding: 0 0.75rem;
+    }
+
+    .fg__flowguard-info ul {
+        text-align: center;
+    }
+
+    .fg__flowguard-info-logo {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        z-index: -1;
+        opacity: 0.1;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 1200px) {
+    .fg__flowguard-info-text-left {
+        font-size: 22px;
+    }
+
+    .fg__flowguard-info-text-right {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width: 1600px) {
+    .fg__flowguard-info-text-left {
+        font-size: 22px;
+    }
+
+    .fg__flowguard-info-text-right {
+        font-size: 22px;
+    }
 }

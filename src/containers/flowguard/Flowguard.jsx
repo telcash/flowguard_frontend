@@ -12,7 +12,7 @@ const Flowguard = () => {
                 </p> 
             </div>
             <div className="fg__flowguard-info">
-                <div className="fg__flowguard-info-text">
+                <div className="fg__flowguard-info-text-left">
                     <ul>
                         <li>Flowguard está destinada a ser la tecnología que protege de Ciberataques a las infraestructuras críticas en los sectores del Agua, Energía y Espacios públicos</li>
                         <li>Integrable con las tecnologías de gestión de procesos: PLCs y SCADAS: escalabilidad total</li>
@@ -22,7 +22,7 @@ const Flowguard = () => {
                 <div className="fg__flowguard-info-logo">
                     <img src={logo} alt="" />
                 </div>
-                <div className="fg__flowguard-info-text">
+                <div className="fg__flowguard-info-text-right">
                     <ul>
                         <li>Flowguard está destinada a ser la tecnología que protege de Ciberataques a las infraestructuras críticas en los sectores del Agua, Energía y Espacios públicos</li>
                         <li>Integrable con las tecnologías de gestión de procesos: PLCs y SCADAS: escalabilidad total</li>
