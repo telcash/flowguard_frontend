@@ -68,3 +68,13 @@
         padding: 0;
     }
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    .fg__features-container {
+        padding: 1rem;
+    }
+
+    .fg__features_cards {
+        column-gap: 3.5rem;
+    }
+}
