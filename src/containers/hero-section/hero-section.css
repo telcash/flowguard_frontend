@@ -56,10 +56,11 @@
 }
 
 .fg__hero-cta-form {
+    width: 100%;
+    padding: 0 var(--margin-sides-xl);
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: calc(var(--navbar-height) + 2rem);
+    left: 0;
     z-index: 1000;
 }
 
@@ -121,6 +122,10 @@
         margin-left: var(--margin-sides-s);
     }
 
+    .fg__hero-cta-form {
+        padding: 0 1.25rem;
+    }
+
     .fg__hero-image {
         position: absolute;
         top: 0;
@@ -148,6 +153,10 @@
     .fg__hero-cta {
         margin-left: var(--margin-sides-m)
     }
+
+    .fg__hero-cta-form {
+        padding: 0 var(--margin-sides-m);
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -163,5 +172,9 @@
 
     .fg__hero-cta {
         margin-left: var(--margin-sides-l);
+    }
+
+    .fg__hero-cta-form {
+        padding: 0 var(--margin-sides-l);
     }
 }
