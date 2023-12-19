@@ -18,22 +18,19 @@ const HeroSection = () => {
   };
     return (
         <div className="fg__hero">
-            
-            <div className="fg__hero-info">
-                    <h1>{t("header.tagline")}</h1>
-                    <p>{t("header.description")}</p>
-                    <div className="fg__hero-info_actions">
-                        <button onClick={showForm}>Contacto</button>
-                        {isFormVisible && (
-                        <ContactForm onClose={hideForm} />)}
-                    </div>
-            </div>
-            <div className="rain_container">
-                <Rain></Rain>
-            </div>
-            <div className="fg__hero-background">
-                <img src={backgroundImg} alt="" />
-            </div>
+          <h1 className="fg__hero-heading">{t("header.tagline")}</h1>
+          <p className="fg__hero-description">{t("header.description")}</p>
+          <div className="fg__hero-cta">
+              <button onClick={showForm}>Contacto</button>
+              {isFormVisible && (
+              <ContactForm onClose={hideForm} />)}
+          </div>
+          <div className="fg__hero-image">
+              <img src={backgroundImg} alt="" />
+          </div>
+          <div className="rain_container">
+              <Rain></Rain>
+          </div>
         </div>
     );
 }

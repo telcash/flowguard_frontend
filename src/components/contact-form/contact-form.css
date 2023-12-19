@@ -12,34 +12,34 @@
     width: 300px;
   }
   
-  .header {
+  .popup-form .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
   }
   
-  .logo {
+  .popup-form .logo {
     max-width: 100px;
     height: auto;
   }
   
-  .close-button {
+  .popup-form .close-button {
     cursor: pointer;
     font-weight: bold;
     color: #555;
   }
   
-  form {
+  .popup-form form {
     display: flex;
     flex-direction: column;
   }
   
-  label {
+  .popup-form label {
     margin-bottom: 10px;
   }
   
-  input {
+  .popup-form input {
     padding: 8px;
     margin-top: 4px;
     margin-bottom: 12px;
@@ -47,7 +47,7 @@
     border-radius: 4px;
   }
   
-  button {
+  .popup-form button {
     background-color: #4caf50;
     color: #fff;
     padding: 10px;
@@ -56,6 +56,6 @@
     cursor: pointer;
   }
   
-  button:hover {
+  .popup-form button:hover {
     background-color: #45a049;
   }
