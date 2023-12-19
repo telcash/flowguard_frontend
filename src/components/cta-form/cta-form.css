@@ -1,0 +1,43 @@
+.fg__ctaForm {
+    width: 100%;
+    min-width: 320px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(256, 256, 256, 0.9);
+    border-radius: 10px;
+}
+
+.fg__ctaForm-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fg__ctaForm-form_fields {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8rem;
+    row-gap: 2rem;
+}
+
+.fg__ctaForm-form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.fg__ctaForm-logo{
+    width: 45px;
+    height: 65.31px;
+}
+
+.fg__ctaForm-logo img {
+    width: 100%;
+    height: auto;
+}

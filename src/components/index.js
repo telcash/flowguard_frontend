@@ -9,3 +9,4 @@ export { default as ProcessSlider } from './process-slider/ProcessSlider';
 export { default as Neurons } from './neurons/Neurons';
 export { default as PartnerLogo } from './partner-logo/PartnerLogo';
 export { default as SlideCard } from './slide-card/SlideCard';
+export { default as CtaForm } from './cta-form/CtaForm';

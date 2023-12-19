@@ -1,0 +1,61 @@
+/* Add this CSS to your styles file */
+
+.popup-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 300px;
+}
+  
+.popup-form .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+  
+.popup-form .logo {
+  max-width: 100px;
+  height: auto;
+}
+  
+.popup-form .close-button {
+  cursor: pointer;
+  font-weight: bold;
+  color: #555;
+}
+  
+.popup-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-form label {
+  margin-bottom: 10px;
+}
+
+.popup-form input {
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+  
+.popup-form button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup-form button:hover {
+  background-color: #45a049;
+}

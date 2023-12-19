@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './contact-form.css'
+import './cta.css'
 
-const ContactForm = ({onClose}) => {
+const Cta = ({onClose}) => {
   const [formData, setFormData] = useState({
     name: '',
     surname: '',
@@ -58,4 +58,4 @@ const ContactForm = ({onClose}) => {
   );
 };
 
-export default ContactForm;
+export default Cta;
