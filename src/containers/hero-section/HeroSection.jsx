@@ -25,14 +25,14 @@ const HeroSection = () => {
           <div className="fg__hero-image">
               <img src={backgroundImg} alt="" />
           </div>
-          <div className="fg__hero-cta-form">
-            {isFormVisible && (
-              <CtaForm className="fg__hero-cta-form" onClose={hideForm} />
-            )}
-          </div>
           <div className="rain_container">
               <Rain numRainElements={3} numWaves={2} numParticles={4}></Rain>
           </div>
+          {isFormVisible && (
+            <div className="fg__hero-cta-form">
+              <CtaForm onClose={hideForm} />
+            </div>
+          )}
         </div>
     );
 }

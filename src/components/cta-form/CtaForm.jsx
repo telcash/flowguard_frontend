@@ -29,6 +29,10 @@ const CtaForm = ({onClose}) => {
       <div className="fg__ctaForm-logo">
         <img src={logo} alt="Logo" />
       </div>
+      <div className="fg__ctaForm-header">
+        <h3>Por favor, rellena el formulario para comenzar</h3>
+        <h4>Usa una dirección de correo electrónico válida y operativa</h4>
+      </div>
       <form className='fg__ctaForm-form' onSubmit={handleSubmit}>
         <div className='fg__ctaForm-form_fields'>
           <div className='fg__ctaForm-form-field'>
