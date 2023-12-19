@@ -1,4 +1,8 @@
 :root {
+    --margin-sides-xl: 10rem;
+    --margin-sides-l: 5rem;
+    --margin-sides-m: 2.5rem;
+    --margin-sides-s: 1.25rem
     --primary-color: #234353;
     --secondary-color: #8eafc2;
     --paragraph-color: #333;
