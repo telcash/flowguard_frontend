@@ -1,6 +1,14 @@
 .fg__rain{
 	width: 100%;
-    min-width: 450px;
+	height: 100%;
+	position: relative;	
+}
+
+.fg__rain-container {
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
