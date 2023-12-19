@@ -25,7 +25,7 @@ const CtaForm = ({onClose}) => {
   };
 
   return (
-    <div className="fg__ctaForm">
+    <div className="fg__ctaForm fade-in-fwd">
       <div className="fg__ctaForm-logo">
         <img src={logo} alt="Logo" />
       </div>
