@@ -29,7 +29,7 @@ const HeroSection = () => {
               <img src={backgroundImg} alt="" />
           </div>
           <div className="rain_container">
-              <Rain numRainElements={7} numWaves={2} numParticles={4}></Rain>
+              <Rain numRainElements={3} numWaves={2} numParticles={4}></Rain>
           </div>
         </div>
     );
