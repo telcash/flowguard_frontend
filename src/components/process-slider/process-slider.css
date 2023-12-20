@@ -14,12 +14,19 @@
   width: 100%;
   background-position: center;
   background-size: cover;
-  max-width: 939px;
 }
 
 .swiper-slide img {
   display: block;
   width: 100%;
+}
+
+.swiper-slide-prev {
+  opacity: 0!important;
+}
+
+.swiper-slide-next {
+  opacity: 0!important;
 }
 
 .swiper-pagination {
