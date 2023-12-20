@@ -4,34 +4,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid rgb(36, 67, 83);
     padding-bottom: 1rem;
-}
-
-.fg__flowguard-header {
-    padding: 1rem 10rem;
-    text-align: center;
-    width: 100%;
-    background-color: rgb(36, 67, 83);
-    color: white;
-}
-
-.fg__flowguard-header h2 {
-    text-align: center;
-    font-size: 100px;
-}
-
-.fg__flowguard-header p {
-    text-align: center;
-    font-size: 36px;
 }
 
 .fg__flowguard-info {
     width: 100%;
-    margin: 3rem 10rem 0 10rem;
+    margin: 6rem 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    align-items: center;
 }
 
 .fg__flowguard-info-text-left, .fg__flowguard-info-text-right {
@@ -62,6 +44,18 @@
 
 .fg__flowguard-info li {
     margin-bottom: 2rem;
+    padding: 0 0 0.55em 3.5em;
+    font-weight:bold;
+    list-style:none;
+    background-repeat:no-repeat;
+}
+
+.fg__flowguard-info-text-left li {
+    background-image: url('../../assets/bullets/danger.png');
+}
+
+.fg__flowguard-info-text-right li {
+    background-image: url('../../assets/bullets/check.png');
 }
 
 .fg__flowguard-info-logo {
@@ -107,17 +101,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .fg__flowguard-header {
-        padding: 1rem;
-    }
-
-    .fg__flowguard-header h2 {
-        font-size: 48px;
-    }
-    
-    .fg__flowguard-header p {
-        font-size: 18px;
-    }
 
     .fg__flowguard-info {
         margin: 3rem 0 0 0;

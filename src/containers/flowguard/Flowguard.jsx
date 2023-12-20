@@ -5,13 +5,6 @@ import logo from "../../assets/logo.png";
 const Flowguard = () => {
     return (
         <div className="fg__flowguard">
-            <div className="fg__flowguard-header">
-                <h2>FLOWGUARD</h2>
-                <p>
-                Es una herramienta informática formada por las tecnologías de Ciberseguridad NIS2, Inteligencia Artificial y Blockchain,
-                destinada a proteger de Ciberataques a las infraestructuras críticas en los sectores del Agua, Energía y Espacios públicos
-                </p> 
-            </div>
             <div className="fg__flowguard-info">
                 <div className="fg__flowguard-info-text-left">
                     <ul>
