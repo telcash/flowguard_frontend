@@ -3,13 +3,17 @@ import './features.css';
 import { FeatureCard, Neurons } from '../../components';
 import { neuralGif, dataQualityGif, cpuGif, speedGif, protectionGif, recyclingGif } from '../../assets/features_gif';
 import { useTranslation } from 'react-i18next';
+import featuresBanner from '../../assets/features-top-border.png';
 
 const Features = () => {
   const [t] = useTranslation("global");
   return (
     <div className='fg__features'>
+      <div className='fg__features-banner'>
+        <img src={featuresBanner} alt="" />
+      </div>
       <div className='fg__features-container'>
-        <h2>{t("features.title")}</h2>
+        {/* <h2>{t("features.title")}</h2> */}
         <div className='fg__features_cards'>
           <FeatureCard icon={neuralGif} title={t("features.graph-neural-networks.title")} description={t("features.graph-neural-networks.description")}></FeatureCard>
           <FeatureCard icon={dataQualityGif} title={t("features.data-reliability.title")} description={t("features.data-reliability.description")}></FeatureCard>

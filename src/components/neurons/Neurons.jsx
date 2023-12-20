@@ -82,7 +82,7 @@ export class Circle {
       //if (!this.active) return;
       ctx.beginPath();
       ctx.arc(this.pos.x, this.pos.y, this.radius, 0, 2 * Math.PI, false);
-      ctx.fillStyle = "rgba(0,76,99," + this.active + ")";
+      ctx.fillStyle = "rgba(255,255,255," + this.active + ")";
       ctx.fill();
     };
 }
