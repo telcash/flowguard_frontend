@@ -1,0 +1,9 @@
+.fg__cta {
+    width: 100%;
+}
+
+.fg__cta-form {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}

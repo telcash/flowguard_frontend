@@ -39,24 +39,24 @@ const CtaForm = ({onClose}) => {
       <form className='fg__ctaForm-form' onSubmit={handleSubmit}>
         <div className='fg__ctaForm-form_fields'>
           <div className='fg__ctaForm-form-field'>
-            <label>Nombre:</label>
-            <input type="text" name="name" value={formData.name} onChange={handleChange} />
+            <label htmlFor='name'>Nombre:</label>
+            <input id='name' type="text" name="name" value={formData.name} onChange={handleChange} />
           </div>
           <div className='fg__ctaForm-form-field'>
-            <label>Apellidos:</label>
-            <input type="text" name="surname" value={formData.surname} onChange={handleChange} />
+            <label htmlFor='surname'>Apellidos:</label>
+            <input id='surname' type="text" name="surname" value={formData.surname} onChange={handleChange} />
           </div>
           <div className='fg__ctaForm-form-field'>
-            <label>Teléfono de contacto:</label>
-            <input type="text" name="phone" value={formData.phone} onChange={handleChange} />
+            <label htmlFor='phone'>Teléfono de contacto:</label>
+            <input id='phone' type="text" name="phone" value={formData.phone} onChange={handleChange} />
           </div>
           <div className='fg__ctaForm-form-field'>
-            <label>Correo electrónico:</label>
-            <input type="text" name="email" value={formData.email} onChange={handleChange} />
+            <label htmlFor='email'>Correo electrónico:</label>
+            <input id='email' type="text" name="email" value={formData.email} onChange={handleChange} />
           </div>
           <div className='fg__ctaForm-form-field'>
-            <label>Empresa:</label>
-            <input type="text" name="company" value={formData.company} onChange={handleChange} />
+            <label htmlFor='company'>Empresa:</label>
+            <input id='company' type="text" name="company" value={formData.company} onChange={handleChange} />
           </div>
           <div className='fg__ctaForm-form-field'>
             <label>Cargo:</label>
