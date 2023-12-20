@@ -12,7 +12,7 @@ const Cta = ({buttonColor, buttonTextColor, data}) => {
     return (
         <div className="fg__cta">
             <form className="fg__cta-form" onSubmit={handleSubmit}>
-                <input id="email" type="text" name="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
+                <input id="email" type="text" name="email" value={email} placeholder="Email" onChange={(e) => setEmail(e.target.value)}/>
                 <button type="submit" 
                     style={{
                         backgroundColor: buttonColor,

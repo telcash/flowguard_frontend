@@ -3,7 +3,27 @@
 }
 
 .fg__cta-form {
+    padding: 1rem;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.fg__cta-form input {
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+}
+
+.fg__cta-form button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    z-index: 1;
 }
