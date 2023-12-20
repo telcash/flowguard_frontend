@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import './cta-form.css';
 import logo from '../../assets/logo.png';
 
-const CtaForm = ({onClose}) => {
+const CtaForm = ({email ='', onClose}) => {
   const [formData, setFormData] = useState({
     name: '',
     surname: '',
     phone: '',
-    email: '',
+    email: email,
     company: '',
     job: '',
   });

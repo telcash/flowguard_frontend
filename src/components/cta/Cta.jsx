@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import './cta.css';
 
-const Cta = ({buttonColor, buttonTextColor}) => {
+const Cta = ({buttonColor, buttonTextColor, data}) => {
     const [email, setEmail] = useState('');
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        data(email);
     };
 
     return (
