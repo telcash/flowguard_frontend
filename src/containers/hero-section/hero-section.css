@@ -57,11 +57,15 @@
 
 .fg__hero-cta-form {
     width: 100%;
-    padding: 0 var(--margin-sides-xl);
+    height: 100%;
     position: fixed;
-    top: calc(var(--navbar-height) + 2rem);
     left: 0;
+    top: 0;
     z-index: 1000;
+    background-color: rgba(211, 211, 211, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fg__hero-image {
@@ -122,10 +126,6 @@
         margin-left: var(--margin-sides-s);
     }
 
-    .fg__hero-cta-form {
-        padding: 0 1.25rem;
-    }
-
     .fg__hero-image {
         position: absolute;
         top: 0;
@@ -153,10 +153,6 @@
     .fg__hero-cta {
         margin-left: var(--margin-sides-m)
     }
-
-    .fg__hero-cta-form {
-        padding: 0 var(--margin-sides-m);
-    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -172,9 +168,5 @@
 
     .fg__hero-cta {
         margin-left: var(--margin-sides-l);
-    }
-
-    .fg__hero-cta-form {
-        padding: 0 var(--margin-sides-l);
     }
 }

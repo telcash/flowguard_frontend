@@ -27,7 +27,10 @@ const CtaForm = ({onClose}) => {
   return (
     <div className="fg__ctaForm fade-in-fwd">
       <div className="fg__ctaForm-logo">
-        <img src={logo} alt="Logo" />
+        <div className='fg__ctaForm-logo-container'>
+          <img src={logo} alt="Logo" />
+        </div>
+        <span>Flowguard</span>
       </div>
       <div className="fg__ctaForm-header">
         <h3>Por favor, rellena el formulario para comenzar</h3>
