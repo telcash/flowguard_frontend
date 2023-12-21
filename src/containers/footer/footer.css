@@ -47,5 +47,14 @@
 
 .fg__footer-bottom {
     width: 100%;
+    min-height: 200px;
     background-color: #424561;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.fg__footer-bottom a:hover {
+    color: red;
 }

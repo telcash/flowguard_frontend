@@ -36,7 +36,9 @@ const Footer = () => {
             </div>
           )}
         <div className='fg__footer-bottom'>
-            Info
+            <a href="/#">Aviso legal</a>
+            <a href="/#">Política de privacidad</a>
+            <a href="/#">Política de cookies</a>
         </div>
     </div>
   );
