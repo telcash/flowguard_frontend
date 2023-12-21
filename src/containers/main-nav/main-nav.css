@@ -42,8 +42,8 @@
 }
 
 .fg__mainnav-logo_container img {
-    width: 45px;
-    height: 65.32px;
+    width: 36px;
+    height: 52.25px;
     cursor: pointer;
 }
 
@@ -51,7 +51,7 @@
     margin-top: 7px;
     margin-left: 10px;
     color: var(--primary-color);
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
     cursor: pointer;
 }
@@ -74,7 +74,7 @@
 
 .fg__mainnav-links a {
     color: #1E255E;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
 }
 
