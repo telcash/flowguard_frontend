@@ -3,12 +3,49 @@
     width: 100%;
 }
 
-.fg__footer-cta {
+.fg__footer-top {
     width: 100%;
-    background-color: var(--primary-color);
+    background-color: #e2ebfc;
+    display: flex;
 }
 
-.fg__footer-info {
+.fg__footer-top-quote {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fg__footer-top-quote-info {
+    margin: 5rem 0;
+    padding: 2rem 2rem 2rem 1rem; 
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.fg__footer-top-quote-info p{
+    color: var(--paragraph-color);
+    font-size: 16px;
+}
+
+.fg__footer-top-quote-info h3 {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.fg__footer-top-cta {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fg__footer-bottom {
     width: 100%;
     background-color: #424561;
 }
