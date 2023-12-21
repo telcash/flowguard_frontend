@@ -4,16 +4,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1rem;
+    padding: 3rem var(--margin-sides-xl);
 }
 
 .fg__flowguard-info {
     width: 100%;
-    margin: 6rem 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    align-items: center;
 }
 
 .fg__flowguard-info-text-left, .fg__flowguard-info-text-right {
@@ -29,7 +27,6 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    padding-left: 6rem;
 }
 
 .fg__flowguard-info-text-right {
@@ -37,7 +34,6 @@
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-    padding-right: 6rem;
 }
 
 .fg__flowguard-info li {
@@ -55,13 +51,13 @@
 
 .fg__flowguard-info li h6 {
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--primary-color);
 }
 
 .fg__flowguard-info-logo {
     width: 100%;
-    max-height: 750px;
+    height: 450px;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -69,9 +65,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: relative;
     overflow: hidden;
+}
+
+.fg__flowguard-info-logo img {
+    height: 100%;
+    width: auto;
 }
 
 .shine-overlay {
