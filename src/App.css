@@ -1,5 +1,5 @@
 :root {
-    --margin-sides-xl: 10rem;
+    --margin-sides-xl: 12rem;
     --margin-sides-l: 5rem;
     --margin-sides-m: 2.5rem;
     --margin-sides-s: 1.25rem;
@@ -22,6 +22,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Lato';
+    font-weight: 300;
     scroll-padding-top: var(--navbar-height);
 }
 
