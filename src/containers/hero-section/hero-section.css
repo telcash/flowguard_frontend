@@ -153,12 +153,12 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
     .fg__hero-heading {
-        font-size: 42px;
+        font-size: 36px;
         margin-left: var(--margin-sides-m)
     }
 
     .fg__hero-description {
-        font-size: 18px;
+        font-size: 16px;
         margin-left: var(--margin-sides-m)
     }
 
@@ -169,12 +169,12 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .fg__hero-heading {
-        font-size: 50px;
+        font-size: 42px;
         margin-left: var(--margin-sides-l);
     }
 
     .fg__hero-description {
-        font-size: 22px;
+        font-size: 18px;
         margin-left: var(--margin-sides-l);
     }
 
