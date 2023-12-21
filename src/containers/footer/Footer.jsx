@@ -19,8 +19,8 @@ const Footer = () => {
         <div className="fg__footer-top">
           <div className='fg__footer-top-quote'>
             <div className='fg__footer-top-quote-info'>
-              <p>“Creo que el próximo Pearl Harbor o el próximo 11 de septiembre será cibernético, y nos enfrentamos a una vulnerabilidad en todos sistemas, pero el agua es uno de los más críticos y creo que uno de los más vulnerables”</p>
-              <h3>- Angus King. Senador de EEUU</h3>
+              <p><em>" </em>Creo que el próximo Pearl Harbor o el próximo 11 de septiembre será cibernético, y nos enfrentamos a una vulnerabilidad en todos sistemas, pero el agua es uno de los más críticos y creo que uno de los más vulnerables<em>"</em></p>
+              <h3>Angus King. Senador de EEUU</h3>
             </div>
           </div>
           <div className='fg__footer-top-cta'>
