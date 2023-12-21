@@ -36,24 +36,12 @@
 .fg__hero-cta{
     grid-area: 3 / 1 / 4 / 3;
     display: flex;
-    align-items: flex-start;
+    justify-self: left;
     padding-top: 1rem;
     padding-bottom: 2rem;
     margin-left: var(--margin-sides-xl);
 }
 
-.fg__hero-cta button {
-    width: 200px;
-    height: 60px;
-    border-radius: 5px;
-    background-color: #17A4D0;
-    color: #fff;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 700;
-    border: none;
-    z-index: 1;
-}
 
 .fg__hero-cta-form {
     width: 100%;
