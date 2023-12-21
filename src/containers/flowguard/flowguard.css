@@ -18,12 +18,10 @@
 
 .fg__flowguard-info-text-left, .fg__flowguard-info-text-right {
     display: flex;
+    flex-direction: column;
     padding-top: 1rem;
     justify-content: center;
     align-items: flex-start;
-    font-size: 24px;
-    text-align: justify;
-    hyphens: auto;
 }
 
 .fg__flowguard-info-text-left {
@@ -43,19 +41,22 @@
 }
 
 .fg__flowguard-info li {
-    margin-bottom: 2rem;
-    padding: 0 0 0.55em 3.5em;
-    font-weight:bold;
     list-style:none;
-    background-repeat:no-repeat;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 1rem;
+    padding: 1rem 0;
 }
 
-.fg__flowguard-info-text-left li {
-    background-image: url('../../assets/bullets/danger.png');
+.fg__flowguard-info li img {
+    width: 30px;
+    height: 30px;
 }
 
-.fg__flowguard-info-text-right li {
-    background-image: url('../../assets/bullets/check.png');
+.fg__flowguard-info li h6 {
+    text-align: left;
+    font-size: 20px;
+    color: var(--primary-color);
 }
 
 .fg__flowguard-info-logo {
@@ -107,7 +108,12 @@
         padding-left: 1rem;
         padding-right: 1rem;
         grid-template-columns: 1fr;
-        grid-template-rows: 2fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .fg__flowguard-info-text-left, .fg__flowguard-info-text-right{
+        flex-direction: column;
+        height: 100%;
     }
 
     .fg__flowguard-info-text-left {
@@ -117,6 +123,11 @@
         grid-row-end: 2;
         font-size: 16px;
         padding: 0 0.75rem;
+        justify-content: flex-end;
+    }
+
+    .fg__flowguard-info-text-left li {
+        margin-bottom: 1rem;
     }
 
     .fg__flowguard-info-text-right {
@@ -126,6 +137,11 @@
         grid-row-end: 3;
         font-size: 16px;
         padding: 0 0.75rem;
+        justify-content: flex-start;
+    }
+
+    .fg__flowguard-info-text-right li {
+        margin-top: 1rem;
     }
 
     .fg__flowguard-info ul {
