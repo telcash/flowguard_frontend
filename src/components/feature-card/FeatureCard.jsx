@@ -7,27 +7,31 @@ const FeatureCard = ({icon, title, description}) => {
     const article = useRef(null);
 
     const flipCard = () => {
-        clearTimeout(toId);
-        setHover(true);
-        article.current.style.zIndex = 0;
+        if(window.innerWidth > 768) {
+            clearTimeout(toId);
+            setHover(true);
+            article.current.style.zIndex = 0;
+        }        
     }
 
     const unflipCard = (event) => {
-        clearTimeout(toId);
-        if(
-            !(event.clientX > article.current.getBoundingClientRect().left &&
-            event.clientX < article.current.getBoundingClientRect().right &&
-            event.clientY > article.current.getBoundingClientRect().top &&
-            event.clientY < article.current.getBoundingClientRect().bottom)
-        ) {
-            setHover(false);
-        } else {
-            const id = setTimeout(() => {
+        if(window.innerWidth > 768){
+            clearTimeout(toId);
+            if(
+                !(event.clientX > article.current.getBoundingClientRect().left &&
+                event.clientX < article.current.getBoundingClientRect().right &&
+                event.clientY > article.current.getBoundingClientRect().top &&
+                event.clientY < article.current.getBoundingClientRect().bottom)
+            ) {
                 setHover(false);
-            }, 500)
-            setToId(id);
+            } else {
+                const id = setTimeout(() => {
+                    setHover(false);
+                }, 500)
+                setToId(id);
+            }
+            article.current.style.zIndex = 1;
         }
-        article.current.style.zIndex = 1;
     }
 
     return(

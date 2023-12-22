@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
+    padding-bottom: 4rem;
 }
 
 .fg__features-banner {
@@ -41,11 +42,18 @@
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    column-gap: 12rem;
     row-gap: 5rem;
 }
+
+.fg__features_cards-card {
+    flex-basis: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .fg__features-background {
     position: absolute;
@@ -97,8 +105,8 @@
         padding: 1rem;
     }
 
-    .fg__features_cards {
-        column-gap: 3.5rem;
+    .fg__features_cards-card {
+        flex-basis: 33.33%;
     }
 }
 
