@@ -3,13 +3,13 @@ import './slide-card.css';
 
 const SlideCard = ({title, imgSrc, description}) => {
     return (
-        <div className="fg__processSlide">
-            <figure className="fg__processSlide-img">
+        <div className="fg__slideCard">
+            <figure className="fg__slideCard-img">
                 <img src={imgSrc} alt={title} />
             </figure>
-            <div className="fg__processSlide-info">
+            <div className="fg__slideCard-info">
                 <h3>{title}</h3>
-                <div className="fg__processSlide-info-description">
+                <div className="fg__slideCard-info-description">
                     <p>{description}</p>
                 </div>
             </div>

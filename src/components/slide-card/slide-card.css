@@ -1,4 +1,58 @@
-.fg__processSlide {
+.fg__slideCard {
+    display: flex;
+    width: 100%;
+}
+
+.fg__slideCard-img {
+    flex: 50%;
+}
+
+.fg__slideCard-img img{
+    border-radius: 5px;
+}
+
+.fg__slideCard-info{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.fg__slideCard-info h3{
+    text-align: center;
+    flex: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.fg__slideCard-info-description {
+    text-align: center;
+    flex: 66.67%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: var(--paragraph-color);
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .fg__slideCard {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+/* .fg__processSlide {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -44,4 +98,4 @@
     text-align: center;
     color: var(--paragraph-color);
     font-size: 18px;
-}
+} */
