@@ -1,6 +1,6 @@
 .fg__footer {
-    margin-top: 200px;
     width: 100%;
+    margin-top: var(--navbar-height);
 }
 
 .fg__footer-top {

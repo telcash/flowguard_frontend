@@ -6,6 +6,12 @@
 }
 
 .fg__partnerLogo img {
-    width: 330px;
+    width: 300px;
     height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .fg__partnerLogo img {
+        width: 250px;
+    }
 }

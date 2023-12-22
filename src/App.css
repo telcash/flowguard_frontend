@@ -31,18 +31,15 @@
 }
 
 .app, nav, main, section, footer{
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 main {
     position: relative;
     top: var(--navbar-height);
 }
+
 
 a {
     color: unset;
