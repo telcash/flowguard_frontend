@@ -64,6 +64,10 @@
     grid-area: 1 / 2 / 4 / 4;
     overflow: hidden;
     position: relative;
+    align-self: self-end;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .fg__hero-image::before {
