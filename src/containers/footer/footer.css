@@ -5,7 +5,7 @@
 
 .fg__footer-top {
     width: 100%;
-    background-color: rgba(82, 173, 200, 0.125);
+    background-color: rgba(82, 173, 200, 0.15);
     display: flex;
 }
 
@@ -18,7 +18,7 @@
 
 .fg__footer-top-quote-info {
     margin: 5rem 0;
-    padding: 2rem 2rem 2rem 1rem; 
+    padding: 2rem 3rem 2rem 2rem; 
     width: 50%;
     background-color: white;
     border-radius: 5px;
@@ -43,11 +43,13 @@
 }
 
 .fg__footer-top-cta {
+    margin-top: 5rem;
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
+    row-gap: 1rem;
 }
 
 .fg__footer-bottom {
@@ -62,4 +64,79 @@
 
 .fg__footer-bottom a:hover {
     color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .fg__footer-top {
+        flex-direction: column;
+    }
+
+    .fg__footer-top-quote {
+        padding: 0 1rem;
+    }
+
+    .fg__footer-top-quote-info {
+        width: 100%;
+        margin: 2rem 0 0 0;
+        padding: 2rem 2rem; 
+    }
+ 
+    .fg__footer-top-cta {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 2rem;
+    }
+
+    .fg__footer-top-cta h2 {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .fg__footer-top-cta-form {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .fg__footer-bottom{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .fg__footer-top {
+        flex-direction: column;
+    }
+
+    .fg__footer-top-quote {
+        padding: 0 5rem;
+    }
+
+    .fg__footer-top-quote-info {
+        width: 100%;
+        margin: 2rem 0;
+        padding: 2rem 2rem; 
+    }
+
+    .fg__footer-top-cta {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 2rem;
+    }
+
+    .fg__footer-top-cta h2 {
+        width: 100%;
+        padding: 0 5rem;
+    }
+
+    .fg__footer-top-cta-form {
+        padding: 1rem 5rem 2rem 5rem;
+    }
 }
