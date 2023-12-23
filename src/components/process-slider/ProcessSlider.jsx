@@ -7,8 +7,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
-//import { test, dataPreprocessingImg, dataTopologyImg, implementationMainteinance, integrationTestImg, normalBehaviourLearnImg, realTimeDataImg, sensorsOptimizationImg} from '../../assets/process_img';
-import {test} from '../../assets/process_img';
+import { dataPreprocessingImg, dataTopologyImg, implementationMainteinance, integrationTestImg, realTimeDataImg } from '../../assets/process_img';
 import { useTranslation } from 'react-i18next';
 
 const ProcessSlider = () => {
@@ -43,51 +42,37 @@ const ProcessSlider = () => {
         >
             <SwiperSlide>
                 <SlideCard 
-                    imgSrc={test}
+                    imgSrc={dataPreprocessingImg}
                     title={t("project-plan.step1.title")}
                     description={t("project-plan.step1.description")}
                 />
             </SwiperSlide>
             <SwiperSlide>
                 <SlideCard 
-                    imgSrc={test}
+                    imgSrc={dataTopologyImg}
                     title={t("project-plan.step2.title")}
                     description={t("project-plan.step2.description")}
                 />
             </SwiperSlide>
             <SwiperSlide>
                 <SlideCard 
-                    imgSrc={test}
+                    imgSrc={realTimeDataImg}
                     title={t("project-plan.step3.title")}
                     description={t("project-plan.step3.description")}
                 />
             </SwiperSlide>
             <SwiperSlide>
                 <SlideCard 
-                    imgSrc={test}
+                    imgSrc={integrationTestImg}
                     title={t("project-plan.step4.title")}
                     description={t("project-plan.step4.description")}
                 />
             </SwiperSlide>
             <SwiperSlide>
                 <SlideCard 
-                    imgSrc={test}
+                    imgSrc={implementationMainteinance}
                     title={t("project-plan.step5.title")}
                     description={t("project-plan.step5.description")}
-                />
-            </SwiperSlide>
-            <SwiperSlide>
-                <SlideCard 
-                    imgSrc={test}
-                    title={t("project-plan.step6.title")}
-                    description={t("project-plan.step6.description")}
-                />
-            </SwiperSlide>
-            <SwiperSlide>
-                <SlideCard 
-                    imgSrc={test}
-                    title={t("project-plan.step7.title")}
-                    description={t("project-plan.step7.description")}
                 />
             </SwiperSlide>
         </Swiper>

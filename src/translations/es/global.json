@@ -52,26 +52,18 @@
             "description": "Recopilar datos históricos de las redes de tratamiento, almacenamiento y distribución de agua y preprocesarlos para eliminar inconsistencias y errores. Desarrollar una base de datos adecuada para almacenar estos datos"
         },
         "step2": {
-            "title": "Modelado de gráficos e identificación de topología",
-            "description": "Desarrollar algoritmos GNN para modelar la topología de la red de tratamiento, almacenamiento y distribución de agua en forma de gráfico. Identificar los nodos claves de la red"
+            "title": "Identificación de topología y aprendizaje de comportamiento normal",
+            "description": "Desarrollar algoritmos GNN para modelar la topología e identificar los nodos claves de la red de tratamiento, almacenamiento y distribución de agua. Entrenar estos algoritmos para identicar el comportamiento normal de la red"
         },
         "step3": {
-            "title": "Aprendizaje de comportamiento normal",
-            "description": "Utilizar datos históricos para entrenar los algoritmos GNN para identificar el comportamiento normal en la red de tratamiento, almacenamiento y distribución de agua"
-        },
-        "step4": {
             "title": "Análisis de datos en tiempo real",
             "description": "Desarrollar algoritmos GNN para analizar datos en tiempo real de sensores y otras fuentes para identificar anomalías que se desvían del comportamiento normal e indican la presencia de un ciberataque"
         },
+        "step4": {
+            "title": "Integración, optimización y pruebas",
+            "description": "Integrar los algoritmos GNN en la red de tratamiento, almacenamiento y distribución de agua. probar el sistema en un entorno simulado, simular ataques a la red y analizar los resultados para identificar las ubicaciones óptimas de los sensores"
+        },
         "step5": {
-            "title": "Optimización de sensores y medidas de seguridad",
-            "description": "Utilizar algoritmos GNN para simular ataques a la red y analizar los resultados para identificar las ubicaciones óptimas de los sensores"
-        },
-        "step6": {
-            "title": "Integración y pruebas",
-            "description": "Integrar los algoritmos GNN en la red de tratamiento, almacenamiento y distribución de agua y probar el sistema en un entorno simulado"
-        },
-        "step7": {
             "title": "Implementación y mantenimiento",
             "description": "Implementar el sistema en un entorno real y proporcionar mantenimiento y soporte continuos"
         }
