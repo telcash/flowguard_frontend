@@ -10,3 +10,4 @@ export { default as PartnerLogo } from './partner-logo/PartnerLogo';
 export { default as SlideCard } from './slide-card/SlideCard';
 export { default as CtaForm } from './cta-form/CtaForm';
 export { default as Cta } from './cta/Cta';
+export { default as FloatingCta } from './floating-cta/FloatingCta';

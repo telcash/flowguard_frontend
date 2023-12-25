@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { MainNav, Flowguard, Features, Partners, Footer, HeroSection, Process } from './containers';
+import { FloatingCta } from './components';
 
 const App = () => (
     <div className='app'>
@@ -27,6 +28,7 @@ const App = () => (
         <footer id='footer'>
             <Footer/>
         </footer>
+        <FloatingCta />
     </div>
 );
 
