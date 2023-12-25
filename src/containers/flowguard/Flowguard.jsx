@@ -1,5 +1,6 @@
 import React from "react";
 import './flowguard.css';
+import { Neurons } from '../../components';
 import logo from "../../assets/logo.png";
 import { checkIcon, dangerIcon } from '../../assets/bullets';
 
@@ -43,6 +44,9 @@ const Flowguard = () => {
                         </li>
                     </ul>
                 </div>
+            </div>
+            <div className='fg__flowguard-background'>
+                <Neurons></Neurons>
             </div>
         </div>
     );

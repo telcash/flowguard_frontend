@@ -43,15 +43,6 @@
     align-items: center;
 }
 
-
-.fg__features-background {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
 .fg__features-topborder {
     background-color: white;
     margin: 0;
