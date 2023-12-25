@@ -95,8 +95,8 @@
 
 @media (max-width: 768px) {
     .fullscreen {
-        padding-top: 12px;
         height: 100%;
+        padding-top: 8.75px;
         align-items: flex-start;
         background-color: rgba(256, 256, 256, 0.9);
     }
@@ -115,8 +115,8 @@
     }
 
     .fg__mainnav-logo_container img {
-        width: 45px;
-        height: 65.31px;
+        width: 36px;
+        height: 52.5px;
         cursor: pointer;
     }
 
