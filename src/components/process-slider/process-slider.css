@@ -54,10 +54,6 @@
     display: none!important;
   }
 
-  .swiper-pagination {
-    padding-top: 5rem!important;
-  }
-
   .swiper-button-next:after {
     font-size: 22px!important;
   }

@@ -24,6 +24,11 @@
 }
 
 @media (max-width:768px) {
+    .fg__partners {
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+
     .fg__partners h1:first-child {
         font-size: 36px;
     }
