@@ -7,20 +7,23 @@ import { checkIcon, dangerIcon } from '../../assets/bullets';
 const Flowguard = () => {
     return (
         <div className="fg__flowguard">
+            <div className="fg__flowguard-title">
+                <h2>Asegurar el agua: preocupaciones y soluciones de Flowguard</h2>
+            </div>
             <div className="fg__flowguard-info">
                 <div className="fg__flowguard-info-text-left">
                     <ul>
                         <li>
                             <img src={dangerIcon} alt="" />
-                            <h6>Provee detección temprana y respuesta rápida a incidentes</h6>
+                            <h6>El Informe de Riesgos Globales del Foro Económico Mundial ha identificado consistentemente las amenazas cibernéticas a la infraestructura crítica, incluidos los sistemas de agua, como una importante preocupación global</h6>
                         </li>
                         <li>
                             <img src={dangerIcon} alt="" />
-                            <h6>Blockchain ofrece un registro transparente e inmutable, reduce el riesgo de manipulación de datos en infraestructuras críticas y aumenta la resiliencia frente a ataques centralizados</h6>
+                            <h6>La Asociación Estadounidense de Obras Hidráulicas (AWWA) destacó en un informe de 2020 que muchas empresas de agua todavía utilizan sistemas de control antiguos, que podrían ser vulnerables a amenazas cibernéticas debido a la tecnología obsoleta y la falta de medidas de seguridad</h6>
                         </li>
                         <li>
                             <img src={dangerIcon} alt="" />
-                            <h6>Ofrece documentación y reportes conforme a NIS2  (Network and Information Security Directive) y análisis en tiempo real para auditoría y evaluación de seguridad</h6>
+                            <h6>El Water Information Sharing & Analysis Center ha observado casos de incidentes de ciberseguridad en el sector del agua como resultado de errores humanos, incluidos ataques de phishing y acciones no intencionadas por parte de los empleados</h6>
                         </li>
                     </ul>
                 </div>
@@ -32,15 +35,15 @@ const Flowguard = () => {
                     <ul>
                         <li>
                             <img src={checkIcon} alt="" />
-                            <h6>Predice anomalías funcionales en los procesos que perjudiquen a la producción y a la seguridad</h6>
+                            <h6>Flowguard es una herramienta informática avanzada, formada por las tecnologías de Ciberseguridad NIS2, Inteligencia Artificial y Blockchain, destinada a proteger de ciberataques a las infraestructuras críticas en los sectores del Agua, Energía y Espacios públicos</h6>
                         </li>
                         <li>
                             <img src={checkIcon} alt="" />
-                            <h6>Se integra con las tecnologías de gestión de procesos: PLCs y SCADAS, permitiendo un rápido despliegue de la herramienta</h6>
+                            <h6>Flowguard se beneficia del uso de Redes Neuronales de Grafos, para analizar las relaciones y dependencias entre los diferentes elementos de los sistemas de gestión de agua, como sensores, bombas y válvulas, además se integra en la red de procesos a través de diversos drives de comunicaciones estandarizados por los principales fabricantes de autómatas programables, SCADAS y elementos de comunicaciones</h6>
                         </li>
                         <li>
                             <img src={checkIcon} alt="" />
-                            <h6>Analiza en tiempo real los patrones óptimos de funcionamiento, detectando alteraciones de estos en caso de Ciberataque</h6>
+                            <h6>El uso de la Blockchain ofrece un registro transparente e inmutable de los datos, facilita la trazabilidad de incidentes, aumenta la resiliencia frente a ataques centralizados y protege contra accesos no autorizados</h6>
                         </li>
                     </ul>
                 </div>
