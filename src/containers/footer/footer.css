@@ -68,11 +68,12 @@
 
 @media only screen and (max-width: 768px) {
     .fg__footer-top {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .fg__footer-top-quote {
         padding: 0 1rem;
+        padding-bottom: 1.5rem;
     }
 
     .fg__footer-top-quote-info {
