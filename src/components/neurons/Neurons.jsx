@@ -82,7 +82,7 @@ export class Circle {
       //if (!this.active) return;
       ctx.beginPath();
       ctx.arc(this.pos.x, this.pos.y, this.radius, 0, 2 * Math.PI, false);
-      ctx.fillStyle = "rgba(255,255,255," + this.active + ")";
+      ctx.fillStyle = "rgba(255,151,0," + this.active + ")";
       ctx.fill();
     };
 }
@@ -176,7 +176,7 @@ function drawLines(p) {
         ctx.beginPath();
         ctx.moveTo(p.x, p.y);
         ctx.lineTo(p.closest[i].x, p.closest[i].y);
-        ctx.strokeStyle = "rgba(156,217,249," + p.active + ")";
+        ctx.strokeStyle = "rgba(23,164,208," + p.active + ")";
         //ctx.strokeStyle = "rgba(30,37,94," + p.active + ")";
         ctx.stroke();
     }
