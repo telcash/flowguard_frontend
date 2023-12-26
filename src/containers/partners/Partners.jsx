@@ -1,7 +1,7 @@
 import React from "react";
 import './partners.css';
 import { PartnerLogo } from "../../components";
-import { airtraceLogoGray, airtraceLogoColor, neoradixLogoGray, neoradixLogoColor } from '../../assets/partners_img';
+import { airtraceLogoGray, airtraceLogoColor, neoradixLogoGray, neoradixLogoColor, securitLogoGray, securitLogoColor } from '../../assets/partners_img';
 import { useTranslation } from 'react-i18next';
 
 const Partners = () => {
@@ -21,6 +21,12 @@ const Partners = () => {
                     logoGray={neoradixLogoGray}
                     logoColor={neoradixLogoColor}
                     url={"https://neoradixsolutions.com"}
+                />
+                <PartnerLogo
+                    name={'Securit'}
+                    logoGray={securitLogoGray}
+                    logoColor={securitLogoColor}
+                    url={"https://securit-project.eu"}
                 />
             </div>
         </div>
