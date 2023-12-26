@@ -19,12 +19,12 @@
 }
 
 .fg__features-container h2 {
-    width: 50%;
+    width: 100%;
     text-align: center;
     color: white;
-    font-size: 26px;
-    font-weight: bolder;
-    padding-bottom: 2rem;
+    font-size: 38px;
+    font-weight: 700;
+    padding: 0 5rem 3rem 5rem;
 }
 
 .fg__features_cards {
@@ -71,7 +71,8 @@
     }
 
     .fg__features-container h2 {
-        font-size: 36px;
+        font-size: 22px;
+        padding: 1rem 1rem 2rem 1rem;
     }
 
     .fg__features_cards {

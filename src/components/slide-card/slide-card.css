@@ -43,6 +43,11 @@
     .fg__slideCard {
         flex-direction: column;
     }
+
+    .fg__slideCard-info h3{
+        font-size: 22px;
+        padding-bottom: 1.25rem;
+    }
 }
 
 

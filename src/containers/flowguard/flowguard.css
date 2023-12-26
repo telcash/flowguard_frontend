@@ -16,6 +16,13 @@
     grid-template-rows: 1fr;
 }
 
+.fg__flowguard-title h2{
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--primary-color);
+    padding-bottom: 2rem;
+}
+
 .fg__flowguard-info-text-left, .fg__flowguard-info-text-right {
     display: flex;
     flex-direction: column;
@@ -110,8 +117,19 @@
         padding: 0 1rem;
     }
 
+    .fg__flowguard-background {
+        display: none;
+    }
+
+    .fg__flowguard-title h2{
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--primary-color);
+        padding: 2rem 2rem 1rem 2rem;
+        text-align: center;
+    }
+
     .fg__flowguard-info {
-        margin: 3rem 0 0 0;
         padding-left: 1rem;
         padding-right: 1rem;
         grid-template-columns: 1fr;
@@ -130,7 +148,7 @@
         grid-row-end: 2;
         font-size: 16px;
         padding: 0 0.75rem;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
 
     .fg__flowguard-info-text-left li {
@@ -145,10 +163,6 @@
         font-size: 16px;
         padding: 0 0.75rem;
         justify-content: flex-start;
-    }
-
-    .fg__flowguard-info-text-right li {
-        margin-top: 1rem;
     }
 
     .fg__flowguard-info ul {

@@ -17,7 +17,7 @@
 
 .fg__process-container h1:first-child {
     color: #1E255E;
-    font-size: 50px;
+    font-size: 38px;
     font-weight: 700;
     text-align: center;
 }
@@ -32,16 +32,17 @@
     }
 
     .fg__process-container h1:first-child {
-        font-size: 36px;
+        font-size: 22px;
+        padding-top: 2rem;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1600px) {
     .fg__process-container {
-        padding: 0 3rem;
+        padding: 3rem 3rem 0 3rem;
     }
 
     .fg__process-container h1:first-child {
-        font-size: 48px;
+        font-size: 38px;
     }
 }
