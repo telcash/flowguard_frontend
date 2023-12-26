@@ -1,10 +1,10 @@
 import React from "react";
 import './process.css';
 import { ProcessSlider } from "../../components";
-import { useTranslation } from 'react-i18next';
+//import { useTranslation } from 'react-i18next';
 
 const Process = () => {
-    const [t] = useTranslation("global");
+    //const [t] = useTranslation("global");
     return (
         <div className="fg__process">
             <div className="fg__process-container">
