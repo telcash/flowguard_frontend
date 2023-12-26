@@ -49,23 +49,23 @@
         "title": "Nuestro proceso",
         "step1": {
             "title": "Recopilación y preprocesamiento de datos",
-            "description": "Recopilar datos históricos de las redes de tratamiento, almacenamiento y distribución de agua y preprocesarlos para eliminar inconsistencias y errores. Desarrollar una base de datos adecuada para almacenar estos datos"
+            "description": "Recopilamos datos históricos de las redes de tratamiento, almacenamiento y distribución de agua y los preprocesamos para eliminar inconsistencias y errores. Luego desarrollamos una base de datos adecuada para almacenar estos datos"
         },
         "step2": {
             "title": "Identificación de topología y aprendizaje de comportamiento normal",
-            "description": "Desarrollar algoritmos GNN para modelar la topología e identificar los nodos claves de la red de tratamiento, almacenamiento y distribución de agua. Entrenar estos algoritmos para identicar el comportamiento normal de la red"
+            "description": "Desarrollamos algoritmos de Redes Neuronales de Grafos para modelar la topología e identificar los nodos claves de la red de tratamiento, almacenamiento y distribución de agua. Entrenamos estos algoritmos para identificar el comportamiento normal de la red. Además, identificamos las relaciones de la red con otros sistemas, por ejemplo, fuentes de agua comunes, clientes destino, entre otros"
         },
         "step3": {
             "title": "Análisis de datos en tiempo real",
-            "description": "Desarrollar algoritmos GNN para analizar datos en tiempo real de sensores y otras fuentes para identificar anomalías que se desvían del comportamiento normal e indican la presencia de un ciberataque"
+            "description": "Desarrollamos algoritmos de Redes Neuronales de Grafos para analizar datos en tiempo real provenientes de sensores y otras fuentes, para así identificar anomalías que se desvían del comportamiento normal e indiquen la presencia de un ciberataque"
         },
         "step4": {
             "title": "Integración, optimización y pruebas",
-            "description": "Integrar los algoritmos GNN en la red de tratamiento, almacenamiento y distribución de agua. probar el sistema en un entorno simulado, simular ataques a la red y analizar los resultados para identificar las ubicaciones óptimas de los sensores"
+            "description": "Integramos los algoritmos de Redes Neuronales de Grafos en la red de tratamiento, almacenamiento y distribución de agua. Probamos el sistema en un entorno simulado, imitando ataques a la red y analizamos los resultados para identificar las ubicaciones óptimas de los sensores y otras medidas de seguridad, proveyendo así la mayor protección ante ciberataques"
         },
         "step5": {
             "title": "Implementación y mantenimiento",
-            "description": "Implementar el sistema en un entorno real y proporcionar mantenimiento y soporte continuos"
+            "description": "Implementamos el sistema en un entorno real y proporcionamos mantenimiento y soporte continuo. Desarrollamos planes de contingencia en caso de falla del sistema, invertimos en entrenamiento del personal y verificamos el cumplimiento de las regulaciones y leyes pertinentes"
         }
     }
 }
