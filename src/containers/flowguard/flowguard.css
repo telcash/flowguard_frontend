@@ -62,6 +62,7 @@
     text-align: left;
     font-size: 16px;
     color: var(--primary-color);
+    line-height: 24px;
 }
 
 .fg__flowguard-info-logo {
