@@ -5,9 +5,9 @@ import { Rain, CtaForm, Cta } from "../../components";
 import backgroundImg from "../../assets/hero-background.jpg";
 
 const HeroSection = () => {
-    const [t] = useTranslation("global");
-    const [email, setEmail] = useState('');
-    const [isFormVisible, setFormVisible] = useState(false);
+  const [t] = useTranslation("global");
+  const [email, setEmail] = useState('');
+  const [isFormVisible, setFormVisible] = useState(false);
 
   const showForm = (email) => {
     setEmail(email)

@@ -19,12 +19,12 @@
 }
 
 .fg__features-container h2 {
-    width: 100%;
-    margin-bottom: var(--subtitles-margin-bottom);
+    width: 50%;
     text-align: center;
-    color: var(--primary-color);
-    font-size: 52px;
+    color: white;
+    font-size: 26px;
     font-weight: bolder;
+    padding-bottom: 2rem;
 }
 
 .fg__features_cards {

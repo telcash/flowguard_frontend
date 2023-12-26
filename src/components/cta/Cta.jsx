@@ -18,7 +18,7 @@ const Cta = ({buttonColor, buttonTextColor, data}) => {
                         backgroundColor: buttonColor,
                         color: buttonTextColor
                     }}>
-                        Contacto
+                        Contáctanos
                 </button>
             </form>
         </div>
