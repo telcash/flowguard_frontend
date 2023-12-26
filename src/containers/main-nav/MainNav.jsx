@@ -40,7 +40,7 @@ const MainNav = () => {
                             <img src={enIcon} alt="english" />
                         </button>
                     </div> */}
-                    <a href='#flowguard' onClick={() => setExpanded(false)}>Quiénes somos</a>
+                    <a href='#flowguard' onClick={() => setExpanded(false)}>Soluciones</a>
                     <a href='#features' onClick={() => setExpanded(false)}>{t("main-nav.links.why")}</a>
                     <a href='#process' onClick={() => setExpanded(false)}>{t("main-nav.links.process")}</a>
                     <a href='#partners' onClick={() => setExpanded(false)}>{t("main-nav.links.partners")}</a>
