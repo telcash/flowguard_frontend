@@ -17,7 +17,7 @@ const Features = () => {
         </svg>
       </div>
       <div className='fg__features-container'>
-        <h2>Descubre las características que hacen de Flowguard la solución de Ciberseguridad de las redes de tratamiento, almacenamiento y distribución de agua</h2>
+        <h2>Descubre las características que hacen de Flowguard una herramienta innovadora</h2>
         <div className='fg__features_cards'>
           <div className="fg__features_cards-card">
             <FeatureCard icon={neuralGif} title={t("features.graph-neural-networks.title")} description={t("features.graph-neural-networks.description")}></FeatureCard>
