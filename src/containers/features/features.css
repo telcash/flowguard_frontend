@@ -1,11 +1,5 @@
 .fg__features {
-    position: relative;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--primary-color);
     padding-bottom: 4rem;
 }
 
@@ -16,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--primary-color);
 }
 
 .fg__features-container h2 {
