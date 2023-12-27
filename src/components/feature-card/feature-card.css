@@ -4,7 +4,7 @@ article {
 
 .fg__featureCard {
     width: 280px;
-    height: 350px;
+    height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -51,6 +51,13 @@ article {
 
 .fg__featureCard-body h3.flipped {
     font-size: 18px;
+    height: 80px;
+    flex: none;
+    margin: 1rem;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .fg__featureCard-body p {
@@ -58,12 +65,15 @@ article {
     text-align: center;
     font-size: 16px;
     display: none;
-    padding: 0 2rem;
+    padding: 0 1rem;
     flex: 3;
 }
 
 .fg__featureCard-body p.flipped {
-    display: block;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .rotate-in-ver {

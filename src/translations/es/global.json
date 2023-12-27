@@ -14,8 +14,8 @@
     "features": {
         "title": "¿Por qué Flowguard?"
 ,        "graph-neural-networks": {
-            "title":"Redes Neuronales de Gráficos",
-            "description": "Proporcionamos un esquema de red neuronal gráfico personalizado que aprende específicamente de los Patrones y procesos que intervienen en los procesos del Agua. Puede analizar datos gráficos a gran escala e identificar cualquier comportamiento anómalo o posibles vulnerabilidades en la red de datos"
+            "title":"Redes Neuronales de Grafos",
+            "description": "Proporcionamos un esquema de red neuronal de grafos personalizado que aprende específicamente de los Patrones y procesos que intervienen en los procesos del Agua. Puede analizar datos gráficos a gran escala e identificar cualquier comportamiento anómalo o posibles vulnerabilidades en la red de datos"
         },
         "data-reliability": {
             "title": "Fiabilidad de los datos",
@@ -23,11 +23,11 @@
         },
         "real-time-response": {
             "title": "Respuesta en tiempo real",
-            "description": "Al analizar datos en tiempo real de sensores de IoT y otras fuentes, las Redes Neuronales de Gráficos pueden identificar el origen y el alcance de un ataque potencial, lo que permite una respuesta específica y eficiente"
+            "description": "Al analizar datos en tiempo real de sensores de IoT y otras fuentes, las Redes Neuronales de Grafos pueden identificar el origen y el alcance de un ataque potencial, lo que permite una respuesta específica y eficiente"
         },
         "cont-improvement": {
             "title": "Mejora continua",
-            "description": "Al simular ataques a la red y analizar los resultados, los GNN pueden identificar la ubicación óptima para sensores y otras medidas de seguridad, mejorando el rendimiento general y reduciendo los costos de implementación y mantenimiento"
+            "description": "Al simular ataques a la red y analizar los resultados, las Redes Neuronales de Grafos pueden identificar la ubicación óptima para sensores y otras medidas de seguridad, mejorando el rendimiento general y reduciendo los costos de implementación y mantenimiento"
         },
         "risk-management": {
             "title": "Gestión de riesgos",
