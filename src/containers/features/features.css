@@ -11,9 +11,6 @@
 
 #curved-border {
     width: 100%;
-    path {
-        fill: var(--primary-color);
-    }
 }
 
 .fg__features-container {
