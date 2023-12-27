@@ -3,8 +3,22 @@
     padding-bottom: 4rem;
 }
 
-.fg__features-container {
+.fg__features-topborder {
+    background-color: white;
+    width: 100%;
     position: relative;
+}
+
+#curved-border {
+    width: 100%;
+    path {
+        fill: var(--primary-color);
+    }
+}
+
+.fg__features-container {
+    position:relative;
+    top: -1px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -36,18 +50,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.fg__features-topborder {
-    background-color: white;
-    width: 100%;
-}
-
-#curved-border {
-    width: 100%;
-    path {
-        fill: var(--primary-color);
-    }
 }
 
 @media only screen and (max-width: 768px) {
