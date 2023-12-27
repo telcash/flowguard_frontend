@@ -45,15 +45,10 @@
 
 .fg__features-topborder {
     background-color: white;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    height: 150px;
     width: 100%;
 }
+
 #curved-border {
-    bottom: 0;
-    position: absolute;
     width: 100%;
     path {
         fill: var(--primary-color);
