@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
           </div>
           <div className='fg__footer-top-cta'>
-            <h2>Conéctate con FlowGuard: solicita una consulta de ciberseguridad</h2>
+            <h3>Conéctate con FlowGuard: solicita una consulta de ciberseguridad</h3>
             <div className='fg__footer-top-cta-form'>
                 <Cta data={showForm}></Cta>
             </div>
