@@ -1,3 +1,7 @@
+/**
+ * Slider contenedor de la sección de preocupaciones y soluciones
+ */
+
 import React from "react";
 import './solutions.css';
 import { Neurons } from '../../components';

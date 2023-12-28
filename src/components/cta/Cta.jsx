@@ -1,3 +1,9 @@
+/**
+ * Componente que contiene el formulario de llamada a acción
+ * El formulario solo contiene un campo para correo electrónico y un botón para enviar
+ * El envío de formulario invoca el formulario de contacto
+ */
+
 import React, { useState } from "react";
 import './cta.css';
 

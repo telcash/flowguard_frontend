@@ -1,3 +1,8 @@
+/**
+ * Componente que contiene el Slider del proceso
+ * Usa la librería Swiper
+ */
+
 import React from 'react';
 import './process-slider.css';
 import { SlideCard } from '../../components';

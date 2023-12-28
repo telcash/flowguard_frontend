@@ -1,3 +1,7 @@
+/**
+ * Componente que genera un background de red neuronal, que sigue al cursor del mouse
+ */
+
 import React, {useEffect, useRef} from 'react';
 import './neurons.css';
 import {TweenLite, Circ} from 'gsap'

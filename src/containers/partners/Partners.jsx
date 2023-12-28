@@ -1,3 +1,7 @@
+/**
+ * Componente contenedor de los logos de los socios
+ */
+
 import React from "react";
 import './partners.css';
 import { PartnerLogo } from "../../components";

@@ -1,3 +1,7 @@
+/**
+ * Componente que contiene una animación de lluvia: gotas cayendo que generan ondas al llegar al suelo
+ */
+
 import React from 'react';
 import './rain.css';
 

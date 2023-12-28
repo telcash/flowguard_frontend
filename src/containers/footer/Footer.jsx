@@ -1,3 +1,7 @@
+/**
+ * Componente contenedor del Footer
+ */
+
 import React, {useState} from 'react';
 import './footer.css';
 import { Cta, CtaForm } from '../../components';

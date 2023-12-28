@@ -1,3 +1,7 @@
+/**
+ * Componente que modelo cada slide que compone el Slider de la sección Proceso
+ */
+
 import React from "react";
 import './slide-card.css';
 

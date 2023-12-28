@@ -1,3 +1,7 @@
+/**
+ * Componente de ícono flotante para contacto
+ */
+
 import React, { useState } from "react";
 import './floating-cta.css';
 import { CtaForm } from '../../components';

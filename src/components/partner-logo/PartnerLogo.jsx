@@ -1,3 +1,9 @@
+/**
+ * Componente para mostrar el logo de un partner
+ * Muestra un logo en gris y un logo en color en hover
+ * Redirige a la dirección web del partner
+ */
+
 import React, {useState} from "react";
 import './partner-logo.css'
 

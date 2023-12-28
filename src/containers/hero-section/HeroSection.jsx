@@ -1,3 +1,7 @@
+/**
+ * Componente contenedor de la HeroSection
+ */
+
 import React, {useState} from "react";
 import './hero-section.css';
 import { useTranslation } from 'react-i18next';

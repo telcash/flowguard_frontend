@@ -1,3 +1,7 @@
+/**
+ * Componente que genera una animación de ondas en movimiento
+ */
+
 import React from "react";
 import './waves.css';
 

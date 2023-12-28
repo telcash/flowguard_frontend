@@ -1,3 +1,7 @@
+/**
+ * Componente contenedor del Slider que describe el proceso de trabajo de Flowguard
+ */
+
 import React from "react";
 import './process.css';
 import { ProcessSlider } from "../../components";

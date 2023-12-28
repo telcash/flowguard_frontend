@@ -1,8 +1,14 @@
+/**
+ * Formulario de contacto de la página
+ */
+
 import React, { useState } from 'react';
 import './cta-form.css';
 import logo from '../../assets/logo.png';
 
 const CtaForm = ({email ='', onClose}) => {
+
+  // Definición de los campos del formulario
   const [formData, setFormData] = useState({
     name: '',
     surname: '',
@@ -17,6 +23,11 @@ const CtaForm = ({email ='', onClose}) => {
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
+  /**
+   * Método que maneja el envío del formulario
+   * Falta definir el endpoint en el backend respectivo que procese el formulario
+   * @param {*} e 
+   */
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add your form submission logic here

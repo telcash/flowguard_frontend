@@ -1,3 +1,7 @@
+/**
+ * Componente contenedor de las características de Flowguard.
+ */
+
 import React from 'react';
 import './features.css';
 import { FeatureCard } from '../../components';

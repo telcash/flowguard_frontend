@@ -1,3 +1,7 @@
+/**
+ * Barra de navegación principal de la página
+ */
+
 import React, { useState } from 'react';
 import './main-nav.css';
 import logo from '../../assets/logo.png';

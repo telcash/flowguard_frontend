@@ -1,3 +1,7 @@
+/**
+ * Componente Card para las características (features)
+ */
+
 import React, { useState, useRef } from "react";
 import './feature-card.css';
 
