@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import './App.css';
-import { MainNav, Flowguard, Features, Partners, Footer, HeroSection, Process } from './containers';
+import { MainNav, Solutions, Features, Partners, Footer, HeroSection, Process } from './containers';
 import { FloatingCta } from './components';
 
 const App = () => {
@@ -38,8 +38,8 @@ const App = () => {
                 <section id='hero' ref={heroRef}>
                     <HeroSection />
                 </section>
-                <section id='flowguard'>
-                    <Flowguard />
+                <section id='solutions'>
+                    <Solutions />
                 </section>
                 <section id='features'>
                     <Features />

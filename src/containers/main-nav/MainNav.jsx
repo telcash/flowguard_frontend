@@ -4,8 +4,6 @@ import logo from '../../assets/logo.png';
 import navIcon from '../../assets/nav-icon.png';
 import { useTranslation } from 'react-i18next';
 import { CtaForm } from "../../components";
-//import esIcon from '../../assets/spain-flag.png';
-//import enIcon from '../../assets/great-britain.png';
 
 const MainNav = () => {
     const [t] = useTranslation("global");
@@ -32,15 +30,7 @@ const MainNav = () => {
                     </a>
                 </div>
                 <div className={`fg__mainnav-links ${expanded ? 'expanded' : ''}`}>
-                    {/* <div className='fg__mainnav-links_languages'>
-                        <button onClick={() => i18n.changeLanguage("es")}>
-                            <img src={esIcon} alt="español" />
-                        </button>
-                        <button onClick={() => i18n.changeLanguage("en")}>
-                            <img src={enIcon} alt="english" />
-                        </button>
-                    </div> */}
-                    <a href='#flowguard' onClick={() => setExpanded(false)}>Soluciones</a>
+                    <a href='#solutions' onClick={() => setExpanded(false)}>Soluciones</a>
                     <a href='#features' onClick={() => setExpanded(false)}>{t("main-nav.links.why")}</a>
                     <a href='#process' onClick={() => setExpanded(false)}>{t("main-nav.links.process")}</a>
                     <a href='#partners' onClick={() => setExpanded(false)}>{t("main-nav.links.partners")}</a>

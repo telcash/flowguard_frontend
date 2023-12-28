@@ -1,17 +1,17 @@
 import React from "react";
-import './flowguard.css';
+import './solutions.css';
 import { Neurons } from '../../components';
 import logo from "../../assets/logo.png";
 import { checkIcon, dangerIcon } from '../../assets/bullets';
 
-const Flowguard = () => {
+const Solutions = () => {
     return (
-        <div className="fg__flowguard">
-            <div className="fg__flowguard-title">
+        <div className="fg__solutions">
+            <div className="fg__solutions-title">
                 <h2>Asegurar el agua: preocupaciones y soluciones de Flowguard</h2>
             </div>
-            <div className="fg__flowguard-info">
-                <div className="fg__flowguard-info-text-left">
+            <div className="fg__solutions-info">
+                <div className="fg__solutions-info-text-left">
                     <ul>
                         <li>
                             <img src={dangerIcon} alt="" />
@@ -27,11 +27,11 @@ const Flowguard = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="fg__flowguard-info-logo">
+                <div className="fg__solutions-info-logo">
                     <img src={logo} alt="" />
                     <div className="shine-overlay"></div>
                 </div>
-                <div className="fg__flowguard-info-text-right">
+                <div className="fg__solutions-info-text-right">
                     <ul>
                         <li>
                             <img src={checkIcon} alt="" />
@@ -48,11 +48,11 @@ const Flowguard = () => {
                     </ul>
                 </div>
             </div>
-            <div className='fg__flowguard-background'>
+            <div className='fg__solutions-background'>
                 <Neurons></Neurons>
             </div>
         </div>
     );
 };
 
-export default Flowguard;
+export default Solutions;
