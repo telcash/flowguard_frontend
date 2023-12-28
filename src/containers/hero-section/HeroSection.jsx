@@ -22,7 +22,7 @@ const HeroSection = () => {
           <h1 className="fg__hero-heading">Potenciando la <strong>Ciberseguridad</strong> de las Infraestructuras críticas de <strong>Aguas públicas y privadas</strong></h1>
           <p className="fg__hero-description">{t("header.description")}</p>
           <div className="fg__hero-cta">
-            <Cta data={showForm} buttonColor={'#17A4D0'} buttonTextColor={'white'}></Cta>
+            <Cta data={showForm}></Cta>
           </div>
           <div className="fg__hero-image">
               <img src={backgroundImg} alt="" />

@@ -45,6 +45,16 @@
     margin-left: var(--margin-sides-xl);
 }
 
+.fg__hero-cta button {
+    background-color: var(--tertiary-color);
+    color: white;
+}
+
+.fg__hero-cta button:hover {
+    background-color: var(--primary-color);
+    
+}
+
 
 .fg__hero-cta-form {
     width: 100%;

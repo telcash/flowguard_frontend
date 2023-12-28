@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './cta.css';
 
-const Cta = ({buttonColor, buttonTextColor, data}) => {
+const Cta = ({data}) => {
     const [email, setEmail] = useState('');
 
     const handleSubmit = (e) => {
@@ -13,12 +13,8 @@ const Cta = ({buttonColor, buttonTextColor, data}) => {
         <div className="fg__cta">
             <form className="fg__cta-form" onSubmit={handleSubmit}>
                 <input id="email" type="text" name="email" value={email} placeholder="Email" onChange={(e) => setEmail(e.target.value)}/>
-                <button type="submit" 
-                    style={{
-                        backgroundColor: buttonColor,
-                        color: buttonTextColor
-                    }}>
-                        Contáctanos
+                <button type="submit">
+                    Contáctanos
                 </button>
             </form>
         </div>
