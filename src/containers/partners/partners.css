@@ -18,10 +18,13 @@
 
 .fg__partners-logos {
     width: 100%;
+    padding: 0 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
+
 
 @media (max-width:768px) {
     .fg__partners {
