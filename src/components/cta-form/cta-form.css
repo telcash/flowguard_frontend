@@ -1,7 +1,6 @@
 .fg__ctaForm {
     width: 100%;
     max-width: 768px;
-    max-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -186,6 +185,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        padding: 0 3rem;
     }
     
     .fg__ctaForm-form-field label {
@@ -196,7 +196,6 @@
     
     .fg__ctaForm-form-field input {
         margin-top: 3px;
-        height: 26px;
         border: 1px solid grey;
         border-radius: 5px;
     }

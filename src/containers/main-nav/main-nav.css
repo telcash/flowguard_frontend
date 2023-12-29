@@ -132,12 +132,13 @@
 
     .fg__mainnav-links a {
         text-align: center;
-        font-size: 36px;
+        font-size: 24px;
         font-weight: 700;
     }
 
     .expanded {
         display: flex;
+        padding-top: 2rem;
     }
 }
 
